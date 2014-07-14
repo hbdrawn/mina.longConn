@@ -1,0 +1,694 @@
+2014-04-08 22:17:30,392 I  [LoggingFilter       ] - CREATED
+2014-04-08 22:17:30,398 I  [LoggingFilter       ] - OPENED
+2014-04-08 22:17:30,404 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-08 22:17:30,404 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-08 22:18:04,927 I  [LoggingFilter       ] - CREATED
+2014-04-08 22:18:04,933 I  [LoggingFilter       ] - OPENED
+2014-04-08 22:18:04,938 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-08 22:18:04,939 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-08 22:18:30,593 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:18:30,593 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:18:30,594 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:18:30,655 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-08 22:19:04,943 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:19:04,943 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:19:04,944 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:19:05,026 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-08 22:19:30,658 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:19:30,658 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:19:30,659 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:19:30,701 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-08 22:20:05,029 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:20:05,029 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:20:05,030 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:20:05,044 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-08 22:20:30,736 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:20:30,736 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:20:30,737 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:20:30,794 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-08 22:21:05,115 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:21:05,115 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:21:05,116 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:21:05,131 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-08 22:21:30,797 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:21:30,797 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:21:30,798 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:21:30,911 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FF]
+2014-04-08 22:21:30,911 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-08 22:21:31,057 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-08 22:22:05,135 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:22:05,135 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:22:05,135 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:22:05,155 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-08 22:22:31,061 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:22:31,061 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:22:31,062 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:22:31,115 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-08 22:23:05,158 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:23:05,158 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:23:05,159 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:23:05,174 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-08 22:23:31,118 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:23:31,118 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:23:31,119 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:23:31,189 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-08 22:24:05,179 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:24:05,179 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:24:05,180 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:24:05,192 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-08 22:24:31,192 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:24:31,192 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:24:31,193 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:24:31,237 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-08 22:25:05,196 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:25:05,197 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:25:05,197 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:25:05,212 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-08 22:25:31,241 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:25:31,241 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:25:31,242 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:25:31,298 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-08 22:26:05,216 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:26:05,216 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:26:05,217 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:26:05,229 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-08 22:26:31,301 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:26:31,301 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:26:31,302 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:26:31,349 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-08 22:27:05,233 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:27:05,233 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:27:05,234 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:27:05,245 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-08 22:27:31,354 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:27:31,354 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:27:31,355 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:27:31,404 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:28:05,249 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:28:05,249 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:28:05,250 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:28:05,263 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-08 22:28:31,407 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:28:31,407 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:28:31,408 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:28:31,464 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:29:05,267 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:29:05,267 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:29:05,268 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:29:05,280 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:29:31,468 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:29:31,468 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:29:31,469 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:29:31,515 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:30:05,283 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:30:05,283 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:30:05,284 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:30:05,297 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:30:31,519 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:30:31,519 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:30:31,520 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:30:31,564 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:31:05,301 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:31:05,301 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:31:05,302 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:31:05,313 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:31:31,569 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:31:31,569 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:31:31,570 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:31:31,618 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:32:05,316 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:32:05,316 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:32:05,317 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:32:05,335 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:32:31,622 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:32:31,622 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:32:31,623 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:32:31,676 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:33:05,340 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:33:05,340 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:33:05,341 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:33:05,356 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:33:31,679 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:33:31,679 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:33:31,680 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:33:31,731 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:34:05,360 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:34:05,360 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:34:05,361 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:34:05,384 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:34:31,735 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:34:31,735 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:34:31,736 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:34:31,781 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:35:05,390 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:35:05,391 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:35:05,391 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:35:05,402 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:35:31,785 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:35:31,785 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:35:31,786 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:35:31,842 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:36:05,405 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:36:05,405 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:36:05,406 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:36:05,417 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:36:31,846 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:36:31,846 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:36:31,847 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:36:31,902 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:37:05,422 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:37:05,422 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:37:05,423 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:37:05,452 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:37:31,946 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:37:31,946 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:37:31,947 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:37:31,993 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:38:05,455 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:38:05,455 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:38:05,456 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:38:05,465 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:38:31,996 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:38:31,996 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:38:31,997 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:38:32,048 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:39:05,468 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:39:05,469 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:39:05,469 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:39:05,479 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:39:32,052 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:39:32,052 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:39:32,053 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:39:32,100 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:40:05,484 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:40:05,484 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:40:05,484 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:40:05,508 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:40:32,103 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:40:32,103 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:40:32,104 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:40:32,146 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:41:05,511 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:41:05,511 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:41:05,512 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:41:05,538 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:41:32,151 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:41:32,151 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:41:32,152 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:41:32,195 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:42:05,544 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:42:05,544 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:42:05,545 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:42:05,569 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:42:32,198 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:42:32,198 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:42:32,199 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:42:32,247 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:43:05,573 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:43:05,573 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:43:05,574 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:43:05,587 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:43:32,252 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:43:32,252 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:43:32,253 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:43:32,313 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:44:05,591 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:44:05,591 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:44:05,592 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:44:05,601 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:44:32,316 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:44:32,316 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:44:32,317 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:44:32,365 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:45:05,605 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:45:05,605 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:45:05,606 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:45:05,618 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:45:32,370 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:45:32,370 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:45:32,371 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:45:32,411 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:46:05,622 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:46:05,622 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:46:05,623 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:46:05,635 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:46:32,415 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:46:32,415 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:46:32,416 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:46:32,461 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:47:05,640 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:47:05,640 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:47:05,641 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:47:05,660 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:47:32,464 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:47:32,464 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:47:32,465 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:47:32,511 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:48:05,663 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:48:05,663 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:48:05,664 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:48:05,687 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:48:32,516 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:48:32,516 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:48:32,517 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:48:32,563 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:49:05,692 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:49:05,692 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:49:05,693 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:49:05,702 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:49:32,567 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:49:32,567 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:49:32,568 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:49:32,621 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:50:05,707 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:50:05,707 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:50:05,708 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:50:05,732 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:50:32,625 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:50:32,625 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:50:32,626 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:50:32,670 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:51:05,737 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:51:05,737 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:51:05,738 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:51:05,750 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:51:32,673 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:51:32,673 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:51:32,674 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:51:32,726 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:52:05,754 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:52:05,754 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:52:05,755 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:52:05,764 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:52:32,730 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:52:32,730 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:52:32,731 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:52:32,775 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:53:05,768 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:53:05,768 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:53:05,769 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:53:05,787 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:53:32,778 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:53:32,778 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:53:32,779 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:53:32,824 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:54:05,791 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:54:05,791 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:54:05,792 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:54:05,803 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:54:32,827 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:54:32,827 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:54:32,828 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:54:32,877 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:55:05,806 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:55:05,806 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:55:05,807 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:55:05,819 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:55:32,881 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:55:32,882 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:55:32,882 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:55:32,925 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:56:05,823 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:56:05,823 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:56:05,824 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:56:05,848 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:56:32,929 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:56:32,929 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:56:32,930 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:56:32,973 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:57:05,851 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:57:05,851 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:57:05,852 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:57:05,864 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:57:32,977 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:57:32,977 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:57:32,978 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:57:33,023 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:58:05,870 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:58:05,870 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:58:05,871 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:58:05,881 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:58:33,026 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:58:33,026 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:58:33,027 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:58:33,078 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:59:05,884 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:59:05,885 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:59:05,885 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:59:05,898 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 22:59:33,082 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:59:33,082 I  [LoggingFilter       ] - IDLE
+2014-04-08 22:59:33,083 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 22:59:33,132 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:00:05,948 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:00:05,948 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:00:05,949 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:00:05,961 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:00:33,135 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:00:33,135 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:00:33,136 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:00:33,185 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:01:05,965 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:01:05,965 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:01:05,966 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:01:05,977 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:01:33,188 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:01:33,188 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:01:33,189 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:01:33,237 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:02:05,982 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:02:05,982 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:02:05,983 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:02:05,996 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:02:33,242 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:02:33,242 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:02:33,242 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:02:33,298 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:03:06,001 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:03:06,002 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:03:06,002 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:03:06,016 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:03:33,301 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:03:33,301 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:03:33,302 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:03:33,361 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:04:06,019 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:04:06,019 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:04:06,020 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:04:06,031 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:04:33,365 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:04:33,365 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:04:33,366 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:04:33,411 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:05:06,035 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:05:06,035 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:05:06,036 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:05:06,049 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:05:33,415 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:05:33,415 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:05:33,416 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:05:33,463 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:06:06,052 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:06:06,052 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:06:06,053 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:06:06,072 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:06:33,467 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:06:33,467 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:06:33,468 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:06:33,515 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:07:06,076 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:07:06,077 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:07:06,077 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:07:06,087 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:07:33,518 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:07:33,518 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:07:33,519 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:07:33,564 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:08:06,090 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:08:06,090 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:08:06,091 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:08:06,107 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:08:33,568 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:08:33,568 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:08:33,569 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:08:33,620 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:09:06,110 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:09:06,110 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:09:06,111 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:09:06,121 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:09:33,623 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:09:33,623 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:09:33,624 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:09:33,669 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:10:06,126 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:10:06,126 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:10:06,128 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:10:06,140 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:10:33,672 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:10:33,672 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:10:33,673 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:10:33,720 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:11:06,143 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:11:06,143 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:11:06,144 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:11:06,157 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:11:33,725 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:11:33,725 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:11:33,726 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:11:33,770 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:12:06,161 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:12:06,161 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:12:06,162 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:12:06,175 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:12:33,775 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:12:33,775 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:12:33,776 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:12:33,829 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:13:06,178 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:13:06,178 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:13:06,179 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:13:06,195 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:13:33,833 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:13:33,834 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:13:33,834 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:13:33,881 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:14:06,199 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:14:06,199 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:14:06,199 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:14:06,213 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:14:33,885 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:14:33,885 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:14:33,886 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:14:33,931 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:15:06,217 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:15:06,217 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:15:06,218 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:15:06,229 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:15:33,949 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:15:33,949 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:15:33,950 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:15:33,997 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:16:06,234 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:16:06,234 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:16:06,234 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:16:06,263 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:16:34,000 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:16:34,000 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:16:34,001 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:16:34,050 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:17:06,269 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:17:06,269 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:17:06,270 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:17:06,295 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:17:34,054 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:17:34,055 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:17:34,055 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:17:34,102 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:18:06,299 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:18:06,299 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:18:06,300 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:18:06,311 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:18:34,106 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:18:34,106 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:18:34,107 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:18:34,156 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:19:06,315 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:19:06,315 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:19:06,316 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:19:06,332 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:19:34,159 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:19:34,159 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:19:34,160 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:19:34,211 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:20:06,335 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:20:06,335 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:20:06,336 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:20:06,347 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:20:34,215 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:20:34,215 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:20:34,216 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:20:34,258 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:21:06,352 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:21:06,352 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:21:06,353 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:21:06,381 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:21:34,261 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:21:34,261 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:21:34,262 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:21:34,313 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:22:06,385 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:22:06,385 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:22:06,386 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:22:06,399 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:22:34,317 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:22:34,317 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:22:34,318 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:22:34,368 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:23:06,402 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:23:06,402 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:23:06,403 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:23:06,418 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:23:34,371 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:23:34,371 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:23:34,372 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:23:34,432 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:24:06,423 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:24:06,423 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:24:06,424 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:24:06,438 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:24:34,436 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:24:34,436 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:24:34,437 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:24:34,488 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:25:06,441 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:25:06,441 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:25:06,442 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:25:06,452 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:25:34,492 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:25:34,492 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:25:34,493 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:25:34,536 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:26:06,456 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:26:06,456 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:26:06,457 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:26:06,468 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:26:34,539 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:26:34,539 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:26:34,540 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:26:34,588 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:27:06,472 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:27:06,472 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:27:06,473 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:27:06,486 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:27:34,592 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:27:34,592 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:27:34,593 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:27:34,697 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:28:06,491 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:28:06,491 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:28:06,492 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:28:06,504 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:28:34,700 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:28:34,700 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:28:34,701 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:28:34,748 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:29:06,507 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:29:06,507 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:29:06,508 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:29:06,517 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:29:34,752 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:29:34,752 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:29:34,753 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:29:34,808 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:30:06,521 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:30:06,521 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:30:06,522 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:30:06,547 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:30:34,812 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:30:34,812 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:30:34,812 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:30:34,857 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:31:06,553 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:31:06,553 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:31:06,554 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:31:06,562 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:31:34,862 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:31:34,862 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:31:34,863 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:31:34,910 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:32:06,565 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:32:06,565 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:32:06,566 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:32:06,583 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:32:34,913 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:32:34,913 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:32:34,914 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:32:34,963 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:33:06,588 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:33:06,588 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:33:06,589 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:33:06,601 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:33:34,966 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:33:34,966 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:33:34,967 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:33:35,010 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:34:06,604 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:34:06,604 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:34:06,605 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:34:06,616 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:34:35,015 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:34:35,015 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:34:35,016 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:34:35,063 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:35:06,621 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:35:06,621 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:35:06,622 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:35:06,634 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:35:35,066 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:35:35,066 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:35:35,067 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:35:35,131 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:36:06,639 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:36:06,639 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:36:06,640 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:36:06,652 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:36:35,135 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:36:35,135 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:36:35,137 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:36:35,184 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:37:06,657 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:37:06,657 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:37:06,658 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:37:06,672 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:37:35,188 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:37:35,188 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:37:35,189 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:37:35,230 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:38:06,676 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:38:06,677 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:38:06,677 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:38:06,688 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:38:35,235 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:38:35,235 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:38:35,236 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:38:35,292 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:39:06,691 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:39:06,691 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:39:06,692 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:39:06,705 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:39:35,295 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:39:35,295 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:39:35,296 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:39:35,343 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:40:06,710 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:40:06,710 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:40:06,710 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:40:06,729 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:40:35,347 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:40:35,347 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:40:35,348 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:40:35,402 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:41:06,732 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:41:06,732 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:41:06,733 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:41:06,745 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:41:35,406 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:41:35,406 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:41:35,407 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:41:35,452 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:42:06,749 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:42:06,749 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:42:06,749 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:42:06,761 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:42:35,456 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:42:35,456 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:42:35,457 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:42:35,499 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:43:06,764 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:43:06,764 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:43:06,765 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:43:06,774 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-08 23:43:35,503 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:43:35,504 I  [LoggingFilter       ] - IDLE
+2014-04-08 23:43:35,504 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-08 23:43:35,549 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]

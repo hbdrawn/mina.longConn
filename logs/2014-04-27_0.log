@@ -1,0 +1,1630 @@
+2014-04-27 17:22:38,633 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:22:57,474 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:22:57,582 I  [LoggingFilter       ] - CREATED
+2014-04-27 17:22:57,583 I  [PushClient4Test     ] - >>>长连接建立成功
+2014-04-27 17:22:57,583 I  [LoggingFilter       ] - OPENED
+2014-04-27 17:22:57,588 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-27 17:22:57,589 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-27 17:23:52,577 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-27 17:23:52,578 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:23:52,579 D  [AbstractIoService   ] - awaitTermination on (nio socket connector: managedSessionCount: 1) called by thread=[NioProcessor-2]
+2014-04-27 17:27:30,091 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:27:30,196 I  [LoggingFilter       ] - CREATED
+2014-04-27 17:27:30,196 I  [LoggingFilter       ] - OPENED
+2014-04-27 17:27:30,196 I  [PushClient4Test     ] - >>>长连接建立成功
+2014-04-27 17:27:30,204 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-27 17:27:30,204 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-27 17:27:35,200 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:27:40,200 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:27:45,201 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:27:50,201 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:27:51,828 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-27 17:27:51,829 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:27:51,830 D  [AbstractIoService   ] - awaitTermination on (nio socket connector: managedSessionCount: 1) called by thread=[NioProcessor-2]
+2014-04-27 17:27:55,201 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:34:57,404 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:34:57,411 D  [PushClient4Test     ] - >>>>>>>??????
+2014-04-27 17:34:57,500 I  [LoggingFilter       ] - CREATED
+2014-04-27 17:34:57,501 I  [PushClient4Test     ] - >>>长连接建立成功
+2014-04-27 17:34:57,506 I  [LoggingFilter       ] - OPENED
+2014-04-27 17:34:57,510 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-27 17:34:57,510 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-27 17:35:02,509 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:35:07,509 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:35:12,509 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:35:13,269 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-27 17:35:13,270 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:35:13,270 D  [PushClient4Test     ] - >>>>>>>??????
+2014-04-27 17:35:13,271 D  [AbstractIoService   ] - awaitTermination on (nio socket connector: managedSessionCount: 1) called by thread=[NioProcessor-2]
+2014-04-27 17:35:17,510 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:40:04,984 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:40:05,082 I  [LoggingFilter       ] - CREATED
+2014-04-27 17:40:05,082 I  [LoggingFilter       ] - OPENED
+2014-04-27 17:40:05,083 I  [PushClient4Test     ] - >>>长连接建立成功
+2014-04-27 17:40:05,089 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-27 17:40:05,090 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-27 17:40:10,091 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:40:15,092 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:40:19,906 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-27 17:40:19,907 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:40:20,092 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:40:20,923 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:40:20,923 W  [DefaultIoFilterChain] - Unexpected exception from exceptionCaught handler.
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.exceptionCaught(PushClient.java:47) ~[bin/:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.exceptionCaught(DefaultIoFilterChain.java:672) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.logging.LoggingFilter.exceptionCaught(LoggingFilter.java:202) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireExceptionCaught(DefaultIoFilterChain.java:451) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:735) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	... 4 common frames omitted
+2014-04-27 17:40:20,934 I  [LoggingFilter       ] - CLOSED
+2014-04-27 17:40:21,932 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:40:22,942 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:40:23,954 W  [DefaultIoFilterChain] - Unexpected exception from exceptionCaught handler.
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.exceptionCaught(PushClient.java:47) ~[bin/:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.exceptionCaught(DefaultIoFilterChain.java:672) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireExceptionCaught(DefaultIoFilterChain.java:451) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:384) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.sessionClosed(ProtocolCodecFilter.java:369) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.logging.LoggingFilter.sessionClosed(LoggingFilter.java:238) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionClosed(DefaultIoFilterChain.java:375) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionDestroyed(IoServiceListenerSupport.java:244) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeNow(AbstractPollingIoProcessor.java:600) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeSessions(AbstractPollingIoProcessor.java:560) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$800(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1132) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	... 4 common frames omitted
+2014-04-27 17:43:01,948 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:02,074 I  [LoggingFilter       ] - CREATED
+2014-04-27 17:43:02,074 I  [PushClient4Test     ] - >>>长连接建立成功
+2014-04-27 17:43:02,075 I  [LoggingFilter       ] - OPENED
+2014-04-27 17:43:02,083 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-27 17:43:02,084 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-27 17:43:07,076 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:43:12,077 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:43:17,077 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:43:19,352 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-27 17:43:19,353 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:20,365 W  [DefaultIoFilterChain] - Unexpected exception from exceptionCaught handler.
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.exceptionCaught(PushClient.java:47) ~[bin/:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.exceptionCaught(DefaultIoFilterChain.java:672) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.logging.LoggingFilter.exceptionCaught(LoggingFilter.java:202) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireExceptionCaught(DefaultIoFilterChain.java:451) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:735) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	... 4 common frames omitted
+2014-04-27 17:43:20,367 I  [LoggingFilter       ] - CLOSED
+2014-04-27 17:43:20,368 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:21,370 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:22,077 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:43:22,384 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:22,385 W  [DefaultIoFilterChain] - Unexpected exception from exceptionCaught handler.
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.exceptionCaught(PushClient.java:47) ~[bin/:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.exceptionCaught(DefaultIoFilterChain.java:672) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireExceptionCaught(DefaultIoFilterChain.java:451) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:384) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.sessionClosed(ProtocolCodecFilter.java:369) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.logging.LoggingFilter.sessionClosed(LoggingFilter.java:238) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionClosed(DefaultIoFilterChain.java:375) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionDestroyed(IoServiceListenerSupport.java:244) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeNow(AbstractPollingIoProcessor.java:600) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeSessions(AbstractPollingIoProcessor.java:560) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$800(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1132) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	... 4 common frames omitted
+2014-04-27 17:43:23,397 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:23,397 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:24,407 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:24,407 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:25,417 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:25,417 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:26,420 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:26,420 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:27,434 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:27,434 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:28,443 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:28,444 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:29,457 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:29,458 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:30,461 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:30,462 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:31,474 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:31,474 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:32,484 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:32,484 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:33,495 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:33,496 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:34,507 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:34,508 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:35,516 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:35,516 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:36,528 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:36,528 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:37,547 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:37,551 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:38,563 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:38,563 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:39,574 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:39,575 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:40,587 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:40,587 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:41,607 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:41,607 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:42,625 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:42,625 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:43,635 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:43,636 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:44,655 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:44,656 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:45,667 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:45,668 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:46,680 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:46,680 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:47,690 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:47,690 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:48,700 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:48,700 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:49,714 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:49,714 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:50,726 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:50,726 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:51,738 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:51,738 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:52,768 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:52,768 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:53,796 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:53,797 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:54,808 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:54,809 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:55,820 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:55,821 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:56,832 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:56,833 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:57,843 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:57,843 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:58,854 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:58,855 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:43:59,869 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:43:59,869 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:00,895 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:00,896 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:01,909 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:01,910 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:02,924 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:02,924 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:03,943 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:03,944 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:04,967 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:04,967 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:05,991 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:05,992 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:07,011 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:07,012 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:08,019 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:08,020 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:09,040 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:09,040 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:10,063 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:10,063 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:11,083 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:11,084 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:12,105 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:12,106 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:13,125 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:13,126 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:14,145 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:14,146 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:15,167 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:15,168 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:16,185 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:44:16,186 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:44:17,207 I  [LoggingFilter       ] - CREATED
+2014-04-27 17:44:17,207 I  [PushClient4Test     ] - >>>长连接建立成功
+2014-04-27 17:44:17,207 I  [LoggingFilter       ] - OPENED
+2014-04-27 17:44:22,208 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:44:27,208 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:44:32,208 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:44:37,209 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:44:42,209 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:44:47,209 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:44:52,209 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:44:57,210 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:02,210 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:07,210 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:12,211 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:17,211 I  [LoggingFilter       ] - IDLE
+2014-04-27 17:45:17,211 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:17,211 I  [LoggingFilter       ] - IDLE
+2014-04-27 17:45:17,212 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-27 17:45:17,218 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-27 17:45:22,211 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:27,211 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:32,212 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:37,212 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:42,212 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:47,213 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:52,213 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:45:57,213 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:02,213 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:07,214 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:12,214 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:17,214 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:17,221 I  [LoggingFilter       ] - IDLE
+2014-04-27 17:46:17,221 I  [LoggingFilter       ] - IDLE
+2014-04-27 17:46:17,221 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-27 17:46:17,226 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FF]
+2014-04-27 17:46:17,227 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-27 17:46:17,227 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-27 17:46:22,215 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:27,215 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:32,215 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:37,215 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:42,216 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:47,216 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:52,216 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:46:57,217 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:02,217 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:07,217 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:12,217 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:17,218 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:17,231 I  [LoggingFilter       ] - IDLE
+2014-04-27 17:47:17,231 I  [LoggingFilter       ] - IDLE
+2014-04-27 17:47:17,231 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-27 17:47:17,232 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FF]
+2014-04-27 17:47:17,232 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-27 17:47:17,232 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-27 17:47:22,218 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:27,218 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:32,219 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:37,219 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:42,219 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:43,254 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-27 17:47:43,254 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:47:44,294 W  [DefaultIoFilterChain] - Unexpected exception from exceptionCaught handler.
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.exceptionCaught(PushClient.java:47) ~[bin/:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.exceptionCaught(DefaultIoFilterChain.java:672) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.logging.LoggingFilter.exceptionCaught(LoggingFilter.java:202) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireExceptionCaught(DefaultIoFilterChain.java:451) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:735) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	... 4 common frames omitted
+2014-04-27 17:47:44,294 I  [LoggingFilter       ] - CLOSED
+2014-04-27 17:47:44,294 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:47:45,303 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:47:46,316 W  [DefaultIoFilterChain] - Unexpected exception from exceptionCaught handler.
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.exceptionCaught(PushClient.java:47) ~[bin/:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.exceptionCaught(DefaultIoFilterChain.java:672) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1100(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.exceptionCaught(DefaultIoFilterChain.java:760) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.exceptionCaught(IoFilterAdapter.java:102) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextExceptionCaught(DefaultIoFilterChain.java:461) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireExceptionCaught(DefaultIoFilterChain.java:451) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:384) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.sessionClosed(ProtocolCodecFilter.java:369) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.logging.LoggingFilter.sessionClosed(LoggingFilter.java:238) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:750) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:88) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:382) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionClosed(DefaultIoFilterChain.java:375) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionDestroyed(IoServiceListenerSupport.java:244) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeNow(AbstractPollingIoProcessor.java:600) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.removeSessions(AbstractPollingIoProcessor.java:560) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$800(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1132) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	... 4 common frames omitted
+2014-04-27 17:47:47,219 D  [PushClient4Test     ] - 后台扫描线程运行中，5s后重试
+2014-04-27 17:47:47,219 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:47:48,231 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:47:48,232 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:47:49,244 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:47:49,245 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:47:50,264 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:47:50,265 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:47:51,294 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:47:51,295 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:47:52,307 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:47:52,307 D  [PushClient4Test     ] - 开始创建长连接
+2014-04-27 17:47:53,322 W  [PushClient4Test     ] - 建立长连接失败，正在重试:{}
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58) ~[mina-core-2.0.7.jar:na]
+	at com.hbdrawn.push.PushClient.startService(PushClient.java:116) ~[bin/:na]
+	at com.hbdrawn.push.PushClient.run(PushClient.java:137) ~[bin/:na]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:46) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:64) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) ~[mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) ~[na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) ~[na:1.6.0_31]
+	... 1 common frames omitted
+2014-04-27 17:47:53,323 D  [PushClient4Test     ] - 开始创建长连接

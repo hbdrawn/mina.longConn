@@ -1,0 +1,750 @@
+2014-04-10 00:00:25,049 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:00:25,052 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:00:25,052 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:00:25,067 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 00:01:25,071 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:01:25,071 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:01:25,072 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:01:25,089 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-10 00:10:45,685 I  [LoggingFilter       ] - CREATED
+2014-04-10 00:10:45,690 I  [LoggingFilter       ] - OPENED
+2014-04-10 00:10:45,696 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:10:45,696 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 00:10:54,677 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 00:10:54,678 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 00:10:54,680 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 00:10:54,681 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:10:54,681 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 00:10:54,706 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 00:10:54,706 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 00:10:54,706 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 00:10:54,707 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:10:54,707 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 00:11:54,713 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:11:54,713 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:11:54,714 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:11:54,727 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-10 00:12:54,731 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:12:54,732 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:12:54,732 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:12:54,745 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-10 00:13:54,751 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:13:54,751 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:13:54,752 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:13:54,761 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 00:14:06,706 I  [LoggingFilter       ] - CLOSED
+2014-04-10 00:16:20,173 I  [LoggingFilter       ] - CREATED
+2014-04-10 00:16:20,178 I  [LoggingFilter       ] - OPENED
+2014-04-10 00:16:20,184 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:16:20,184 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 00:16:22,512 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 00:16:22,512 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 00:16:22,514 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 00:16:22,514 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:16:22,515 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 00:16:22,535 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 00:16:22,536 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 00:16:22,536 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 00:16:22,536 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:16:22,537 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 00:16:31,936 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 00:16:31,937 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 00:16:31,937 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 00:16:31,937 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:16:31,937 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 00:20:42,022 I  [LoggingFilter       ] - CREATED
+2014-04-10 00:20:42,029 I  [LoggingFilter       ] - OPENED
+2014-04-10 00:20:42,035 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:20:42,035 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 00:20:48,638 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 00:20:48,639 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 00:20:48,641 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 00:20:48,641 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:20:48,642 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 00:20:48,653 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 00:20:48,654 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 00:20:48,654 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 00:20:48,655 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:20:48,655 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 00:20:59,807 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 00:20:59,807 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 00:20:59,808 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 00:20:59,808 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:20:59,808 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 00:21:59,811 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:21:59,812 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:21:59,812 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:21:59,824 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-10 00:22:59,830 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:22:59,831 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:22:59,831 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:22:59,843 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 00:23:59,849 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:23:59,849 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:23:59,850 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:23:59,862 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 00:24:38,722 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=256: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 00:24:38,722 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 00:24:38,723 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 00:24:38,723 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:24:38,723 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 00:25:38,727 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:25:38,727 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:25:38,728 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:25:38,746 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-10 00:26:38,757 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:26:38,757 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:26:38,758 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:26:38,768 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-10 00:27:38,772 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:27:38,772 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:27:38,773 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:27:38,786 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-10 00:27:49,821 I  [LoggingFilter       ] - CLOSED
+2014-04-10 00:29:11,026 I  [LoggingFilter       ] - CREATED
+2014-04-10 00:29:11,031 I  [LoggingFilter       ] - OPENED
+2014-04-10 00:29:11,037 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:29:11,037 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 00:30:11,042 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:30:11,042 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:30:11,044 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:30:11,075 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-10 00:31:11,078 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:31:11,078 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:31:11,079 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:31:11,101 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-10 00:32:11,120 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:32:11,120 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:32:11,121 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:32:11,133 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-10 00:32:43,589 I  [LoggingFilter       ] - CLOSED
+2014-04-10 00:34:28,089 I  [LoggingFilter       ] - CREATED
+2014-04-10 00:34:28,094 I  [LoggingFilter       ] - OPENED
+2014-04-10 00:34:28,100 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:34:28,101 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 00:35:28,105 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:35:28,105 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:35:28,106 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:35:28,132 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-10 00:36:28,136 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:36:28,136 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:36:28,137 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:36:28,148 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-10 00:37:28,152 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:37:28,152 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:37:28,152 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:37:28,165 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-10 00:38:28,168 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:38:28,168 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:38:28,169 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:38:28,231 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-10 00:39:28,234 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:39:28,235 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:39:28,235 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:39:28,253 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 00:40:28,258 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:40:28,258 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:40:28,259 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:40:28,269 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 00:41:28,275 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:41:28,275 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:41:28,276 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:41:28,326 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-10 00:42:28,342 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:42:28,342 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:42:28,343 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:42:28,355 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-10 00:43:28,361 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:43:28,361 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:43:28,362 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:43:28,375 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-10 00:44:28,381 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:44:28,381 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:44:28,382 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:44:28,402 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-10 00:45:04,212 I  [LoggingFilter       ] - CLOSED
+2014-04-10 00:46:59,566 I  [LoggingFilter       ] - CREATED
+2014-04-10 00:46:59,572 I  [LoggingFilter       ] - OPENED
+2014-04-10 00:46:59,579 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 00:46:59,579 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 00:47:59,583 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:47:59,583 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:47:59,584 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:47:59,616 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-10 00:48:59,620 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:48:59,620 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:48:59,621 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:48:59,633 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-10 00:49:59,651 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:49:59,651 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:49:59,652 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:49:59,671 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-10 00:50:59,675 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:50:59,675 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:50:59,676 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:50:59,690 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-10 00:51:59,780 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:51:59,781 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:51:59,781 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:51:59,793 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 00:52:59,798 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:52:59,798 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:52:59,799 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:52:59,812 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 00:53:59,815 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:53:59,815 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:53:59,816 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:53:59,846 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-10 00:54:59,850 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:54:59,850 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:54:59,851 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:54:59,863 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-10 00:55:59,866 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:55:59,866 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:55:59,867 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:55:59,876 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-10 00:56:59,881 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:56:59,881 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:56:59,882 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:56:59,898 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-10 00:57:59,908 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:57:59,908 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:57:59,909 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:57:59,924 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 00:58:59,933 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:58:59,933 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:58:59,934 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:58:59,944 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 00:59:59,949 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:59:59,949 I  [LoggingFilter       ] - IDLE
+2014-04-10 00:59:59,950 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 00:59:59,969 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 01:00:59,972 I  [LoggingFilter       ] - IDLE
+2014-04-10 01:00:59,972 I  [LoggingFilter       ] - IDLE
+2014-04-10 01:00:59,973 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 01:00:59,984 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 01:01:59,988 I  [LoggingFilter       ] - IDLE
+2014-04-10 01:01:59,988 I  [LoggingFilter       ] - IDLE
+2014-04-10 01:01:59,989 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 01:02:00,005 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 01:03:00,009 I  [LoggingFilter       ] - IDLE
+2014-04-10 01:03:00,009 I  [LoggingFilter       ] - IDLE
+2014-04-10 01:03:00,010 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 01:03:00,021 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 01:04:00,027 I  [LoggingFilter       ] - IDLE
+2014-04-10 01:04:00,027 I  [LoggingFilter       ] - IDLE
+2014-04-10 01:04:00,028 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 01:04:00,045 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 07:20:54,523 I  [LoggingFilter       ] - IDLE
+2014-04-10 07:20:54,524 I  [LoggingFilter       ] - IDLE
+2014-04-10 07:20:54,524 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 07:21:00,449 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-10 07:21:00,450 W  [PushClient4Test     ] - EXCEPTION, please implement com.hbdrawn.push.PushClient4Test.exceptionCaught() for proper handling:
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-10 07:21:00,451 E  [PushClient4Test     ] - 连接已断开，正在重试[2]...
+2014-04-10 07:21:00,452 I  [LoggingFilter       ] - CLOSED
+2014-04-10 07:47:37,000 I  [LoggingFilter       ] - CREATED
+2014-04-10 07:47:37,007 I  [LoggingFilter       ] - OPENED
+2014-04-10 07:47:37,011 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 07:47:37,011 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 07:48:30,284 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 07:48:30,285 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 07:48:30,287 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 07:48:30,287 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 07:48:30,288 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 07:48:30,303 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 07:48:30,303 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 07:48:30,303 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 07:48:30,304 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 07:48:30,304 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 07:48:37,548 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 07:48:37,549 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 07:48:37,549 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 07:48:37,549 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 07:48:37,549 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 07:49:10,608 I  [LoggingFilter       ] - CLOSED
+2014-04-10 08:20:08,009 I  [LoggingFilter       ] - CREATED
+2014-04-10 08:20:08,014 I  [LoggingFilter       ] - OPENED
+2014-04-10 08:20:08,020 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:20:08,020 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 08:20:13,006 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:20:13,006 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:20:13,008 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:20:13,008 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:20:13,008 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:20:13,027 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:20:13,028 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:20:13,028 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:20:13,028 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:20:13,029 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:20:13,905 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:20:13,906 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:20:13,906 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:20:13,906 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:20:13,906 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:20:14,460 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:20:14,460 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:20:14,460 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:20:14,461 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:20:14,461 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:20:14,985 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:20:14,986 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:20:14,986 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:20:14,986 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:20:14,986 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:20:15,407 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:20:15,408 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:20:15,408 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:20:15,408 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:20:15,409 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:21:15,413 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:21:15,414 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:21:15,414 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 08:21:15,452 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-10 08:22:15,455 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:22:15,455 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:22:15,456 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 08:22:15,472 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-10 08:23:15,475 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:23:15,475 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:23:15,476 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 08:23:15,485 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-10 08:23:48,132 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=128: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:23:48,133 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:23:48,133 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:23:48,133 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:23:48,134 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:24:48,138 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:24:48,138 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:24:48,139 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 08:24:48,154 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 08:25:48,157 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:25:48,157 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:25:48,158 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 08:25:48,179 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 08:26:12,559 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-10 08:26:12,561 W  [PushClient4Test     ] - EXCEPTION, please implement com.hbdrawn.push.PushClient4Test.exceptionCaught() for proper handling:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-10 08:26:12,562 E  [PushClient4Test     ] - 连接已断开，正在重试[2]...
+2014-04-10 08:26:12,563 I  [LoggingFilter       ] - CLOSED
+2014-04-10 08:33:00,355 I  [LoggingFilter       ] - CREATED
+2014-04-10 08:33:00,361 I  [LoggingFilter       ] - OPENED
+2014-04-10 08:33:00,368 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:33:00,368 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 08:33:10,451 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:33:10,452 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:33:10,454 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:33:10,455 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:33:10,455 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:33:10,469 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:33:10,470 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:33:10,470 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:33:10,471 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:33:10,471 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:33:11,178 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:33:11,178 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:33:11,179 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:33:11,179 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:33:11,179 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:43:08,127 I  [LoggingFilter       ] - CREATED
+2014-04-10 08:43:08,132 I  [LoggingFilter       ] - OPENED
+2014-04-10 08:43:08,138 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:43:08,138 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 08:43:22,589 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:43:22,589 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:43:22,591 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:43:22,592 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:43:22,592 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:43:22,603 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:43:22,604 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:43:22,604 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:43:22,605 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:43:22,605 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:43:24,820 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:43:24,820 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:43:24,821 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:43:24,821 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:43:24,821 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:43:25,576 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:43:25,576 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:43:25,576 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:43:25,577 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:43:25,577 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:44:25,582 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:44:25,582 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:44:25,583 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 08:44:25,594 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 08:45:25,598 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:45:25,598 I  [LoggingFilter       ] - IDLE
+2014-04-10 08:45:25,599 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 08:45:25,610 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 08:46:19,007 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=256: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:46:19,008 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:46:19,008 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:46:19,009 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:46:19,009 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 08:46:20,313 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=256: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 08:46:20,314 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 08:46:20,314 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-10 08:46:20,314 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 08:46:20,315 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-10 15:56:38,895 I  [LoggingFilter       ] - CREATED
+2014-04-10 15:56:39,104 I  [LoggingFilter       ] - OPENED
+2014-04-10 15:56:39,110 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 15:56:39,110 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 15:56:39,141 I  [LoggingFilter       ] - CLOSED
+2014-04-10 15:57:59,885 I  [LoggingFilter       ] - CREATED
+2014-04-10 15:57:59,895 I  [LoggingFilter       ] - OPENED
+2014-04-10 15:57:59,904 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 15:57:59,904 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 15:57:59,928 I  [LoggingFilter       ] - CLOSED
+2014-04-10 16:00:21,262 I  [LoggingFilter       ] - CREATED
+2014-04-10 16:00:21,270 I  [LoggingFilter       ] - OPENED
+2014-04-10 16:00:21,279 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:00:21,280 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 16:00:21,314 I  [LoggingFilter       ] - CLOSED
+2014-04-10 16:02:32,116 I  [LoggingFilter       ] - CREATED
+2014-04-10 16:02:32,122 I  [LoggingFilter       ] - OPENED
+2014-04-10 16:02:32,127 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:02:32,128 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 16:02:32,152 I  [LoggingFilter       ] - CLOSED
+2014-04-10 16:06:09,128 I  [LoggingFilter       ] - CREATED
+2014-04-10 16:06:09,134 I  [LoggingFilter       ] - OPENED
+2014-04-10 16:06:09,139 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:06:09,139 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 16:06:09,163 I  [LoggingFilter       ] - CLOSED
+2014-04-10 16:06:41,108 I  [LoggingFilter       ] - CREATED
+2014-04-10 16:06:41,117 I  [LoggingFilter       ] - OPENED
+2014-04-10 16:06:41,124 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:06:41,124 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-10 16:07:41,128 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:07:41,128 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:07:41,129 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 16:07:41,132 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-10 16:08:41,136 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:08:41,136 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:08:41,136 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 16:08:41,137 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FF]
+2014-04-10 16:08:41,137 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-10 16:08:41,137 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-10 16:14:04,672 I  [LoggingFilter       ] - CREATED
+2014-04-10 16:14:04,677 I  [LoggingFilter       ] - OPENED
+2014-04-10 16:14:04,683 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:14:04,684 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-10 16:19:18,829 I  [LoggingFilter       ] - CREATED
+2014-04-10 16:19:18,835 I  [LoggingFilter       ] - OPENED
+2014-04-10 16:19:18,840 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:19:18,841 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-10 16:19:48,400 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-10 16:19:48,402 W  [PushClient4Test     ] - EXCEPTION, please implement com.hbdrawn.push.PushClient4Test.exceptionCaught() for proper handling:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-10 16:19:48,421 E  [PushClient4Test     ] - 连接已断开，正在重试[2]...
+2014-04-10 16:19:48,422 I  [LoggingFilter       ] - CLOSED
+2014-04-10 16:20:27,792 I  [LoggingFilter       ] - CREATED
+2014-04-10 16:20:27,798 I  [LoggingFilter       ] - OPENED
+2014-04-10 16:20:27,804 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:20:27,805 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585848","teleNo":"18701585848"}
+2014-04-10 16:20:27,805 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:20:27,805 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-10 16:21:27,811 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:21:27,811 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:21:27,812 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 16:21:27,816 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-10 16:22:02,018 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:22:02,018 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:22:02,020 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:22:02,021 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:22:02,021 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:22:02,023 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:22:02,024 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:22:02,024 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:22:02,024 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:22:02,024 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:23:02,028 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:23:02,028 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:23:02,028 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 16:23:02,029 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FF]
+2014-04-10 16:23:02,029 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-10 16:23:02,029 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-10 16:24:02,034 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FF]
+2014-04-10 16:24:02,034 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-10 16:24:26,299 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=256: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:24:26,300 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:24:26,300 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:24:26,300 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:24:26,300 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:24:28,108 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=256: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:24:28,108 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:24:28,108 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:24:28,109 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:24:28,109 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:24:51,549 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=128: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:24:51,549 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:24:51,549 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:24:51,550 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:24:51,550 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:25:51,554 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:25:51,554 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:25:51,555 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 16:25:51,555 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FF]
+2014-04-10 16:25:51,556 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-10 16:25:51,556 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 16:26:51,559 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:26:51,559 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:26:51,560 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 16:26:51,560 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-10 16:26:51,560 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-10 16:26:51,560 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 16:27:51,582 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:27:51,582 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:27:51,583 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 16:27:51,583 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 16:28:51,598 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:28:51,598 I  [LoggingFilter       ] - IDLE
+2014-04-10 16:28:51,599 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-10 16:28:51,599 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-10 16:28:51,599 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-10 16:28:51,600 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-10 16:29:51,604 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-10 16:29:51,604 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-10 16:30:13,173 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:30:13,173 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:30:13,174 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:30:13,174 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:30:13,175 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:30:21,891 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-10 16:30:21,892 W  [PushClient4Test     ] - EXCEPTION, please implement com.hbdrawn.push.PushClient4Test.exceptionCaught() for proper handling:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-10 16:30:21,893 E  [PushClient4Test     ] - 连接已断开，正在重试[2]...
+2014-04-10 16:30:21,894 I  [LoggingFilter       ] - CLOSED
+2014-04-10 16:31:04,274 I  [LoggingFilter       ] - CREATED
+2014-04-10 16:31:04,282 I  [LoggingFilter       ] - OPENED
+2014-04-10 16:31:04,289 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:04,289 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585848","teleNo":"18701585848"}
+2014-04-10 16:31:04,289 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:04,289 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-10 16:31:12,620 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:12,620 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:12,622 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:12,622 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:12,622 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:12,623 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:12,623 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:12,623 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:12,624 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:12,624 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:13,823 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:13,823 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:13,823 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:13,824 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:13,824 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:14,598 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:14,598 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:14,598 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:14,599 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:14,599 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:15,140 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:15,141 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:15,141 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:15,141 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:15,141 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:15,646 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:15,647 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:15,647 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:15,647 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:15,647 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:16,165 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=256: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:16,165 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:16,165 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:16,166 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:16,166 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:16,677 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=256: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:16,678 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:16,678 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:16,678 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:16,678 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:17,125 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=128: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:17,126 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:17,126 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:17,126 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:17,126 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:17,674 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=128: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:17,675 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:17,675 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:17,675 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:17,676 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:18,129 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-10 16:31:18,129 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-10 16:31:18,130 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-10 16:31:18,130 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-10 16:31:18,130 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-10 16:31:49,950 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-10 16:31:49,951 W  [PushClient4Test     ] - EXCEPTION, please implement com.hbdrawn.push.PushClient4Test.exceptionCaught() for proper handling:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-10 16:31:49,953 E  [PushClient4Test     ] - 连接已断开，正在重试[2]...
+2014-04-10 16:31:49,953 I  [LoggingFilter       ] - CLOSED

@@ -1,0 +1,366 @@
+2014-04-25 09:35:41,952 I  [LoggingFilter       ] - CREATED
+2014-04-25 09:35:41,957 I  [LoggingFilter       ] - OPENED
+2014-04-25 09:35:41,962 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 09:35:41,963 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"13401167851","teleNo":"13401167851"}
+2014-04-25 09:35:41,963 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 09:35:41,963 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-25 09:36:41,969 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:36:41,970 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:36:41,970 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 09:36:41,975 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-25 09:37:41,978 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:37:41,978 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:37:41,978 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 09:37:41,984 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FF]
+2014-04-25 09:37:41,985 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-25 09:37:41,985 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-25 09:38:41,989 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:38:41,989 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:38:41,990 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 09:38:41,990 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-25 09:53:24,689 I  [LoggingFilter       ] - CREATED
+2014-04-25 09:53:24,694 I  [LoggingFilter       ] - OPENED
+2014-04-25 09:53:24,699 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 09:53:24,699 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"13401167851","teleNo":"13401167851"}
+2014-04-25 09:53:24,700 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 09:53:24,700 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-25 09:54:24,704 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:54:24,704 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:54:24,705 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 09:54:24,711 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-25 09:55:24,715 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:55:24,715 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:55:24,716 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 09:55:24,721 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FF]
+2014-04-25 09:55:24,722 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-25 09:55:24,722 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-25 09:56:24,743 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FF]
+2014-04-25 09:56:24,743 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-25 09:57:24,747 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:57:24,747 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:57:24,748 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 09:57:24,748 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FF]
+2014-04-25 09:57:24,749 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-25 09:57:24,749 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-25 09:58:24,752 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:58:24,752 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:58:24,752 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 09:58:24,754 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-25 09:59:24,759 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:59:24,759 I  [LoggingFilter       ] - IDLE
+2014-04-25 09:59:24,760 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 09:59:24,761 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-25 10:00:24,764 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FF]
+2014-04-25 10:00:24,764 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-25 10:01:24,768 I  [LoggingFilter       ] - IDLE
+2014-04-25 10:01:24,768 I  [LoggingFilter       ] - IDLE
+2014-04-25 10:01:24,769 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 10:01:24,770 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FF]
+2014-04-25 10:01:24,770 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-25 10:01:24,770 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-25 16:37:43,657 I  [LoggingFilter       ] - CREATED
+2014-04-25 16:37:43,673 I  [LoggingFilter       ] - OPENED
+2014-04-25 16:37:43,694 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:37:43,694 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"15801207002","teleNo":"15801207002"}
+2014-04-25 16:38:43,713 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:38:43,716 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:38:43,716 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 16:38:43,723 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-25 16:39:29,160 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:29,160 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:29,162 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:29,162 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:29,163 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:29,163 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:32,693 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:32,693 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:32,693 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:32,694 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:32,694 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:32,694 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:33,927 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:33,928 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:33,928 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:33,928 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:33,929 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:33,929 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:41,681 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:41,681 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:41,681 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:41,682 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:41,682 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:41,683 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:48,172 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:48,172 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:48,172 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:48,172 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:48,173 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:48,173 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:48,386 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=256: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:48,386 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:48,387 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:48,387 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:48,387 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:48,388 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:48,570 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=256: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:48,571 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:48,571 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:48,571 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:48,572 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:48,573 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:48,724 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=128: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:48,724 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:48,724 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:48,724 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:48,725 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:48,725 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:48,889 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=128: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:48,889 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:48,889 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:48,889 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:48,890 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:48,890 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:49,087 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:49,087 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:49,087 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:49,087 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:49,088 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:49,088 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:49,215 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:49,215 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:49,216 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:49,216 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:49,217 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:49,217 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:49,388 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:49,388 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:49,389 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:49,389 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:49,389 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:49,389 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:49,562 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:49,562 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:49,562 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:49,562 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:49,563 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:49,563 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:49,714 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:49,714 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:49,714 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:49,714 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:49,715 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:49,715 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:51,449 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:51,450 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:51,450 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:51,450 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:51,450 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:51,451 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:51,608 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:51,609 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:51,609 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:51,609 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:51,610 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:51,610 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:51,758 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:51,759 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:51,759 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:51,759 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:51,760 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:51,760 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:52,122 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:52,122 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:52,122 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:52,122 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:52,123 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:52,123 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:52,127 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:52,127 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:52,127 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:52,127 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:52,128 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:52,128 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:52,268 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:52,269 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:52,269 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:52,269 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:52,269 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:52,270 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:52,417 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:52,417 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:52,417 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:52,418 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:52,418 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:52,419 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:52,546 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:52,547 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:52,547 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:52,547 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:52,548 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:52,548 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:52,694 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:52,694 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:52,694 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:52,694 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:52,695 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:52,695 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:52,851 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:52,851 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:52,852 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:52,852 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:52,853 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:52,853 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:53,018 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:53,019 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:53,019 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:53,019 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:53,020 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:53,020 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:53,173 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:53,174 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:53,174 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:53,175 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:53,175 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:53,176 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:53,354 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:53,354 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:53,354 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:53,354 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:53,355 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:53,355 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:53,507 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:53,508 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:53,508 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:53,508 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:53,509 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:53,509 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:53,669 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:53,669 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:53,670 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:53,670 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:53,670 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:53,670 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:53,837 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:53,838 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:53,838 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:53,838 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:53,839 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:53,839 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:54,037 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:54,037 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:54,037 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:54,038 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:54,038 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:54,039 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:54,201 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:54,202 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:54,202 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:54,202 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:54,203 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:54,203 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:54,366 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:54,367 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:54,367 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:54,367 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:54,367 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:54,368 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:54,556 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:54,556 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:54,557 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:54,557 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:54,557 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:54,558 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:54,757 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:54,757 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:54,757 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:54,758 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:54,758 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:54,758 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:55,008 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:55,008 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:55,008 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:55,008 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:55,009 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:55,009 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:55,357 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:55,357 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:55,357 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:55,357 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:55,358 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:55,358 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:55,359 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:55,360 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:55,360 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:55,360 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:55,361 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:55,361 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:55,545 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:55,545 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:55,545 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:55,545 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:55,546 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:55,546 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:55,699 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:55,700 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:55,700 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:55,700 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:55,701 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:55,701 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:55,842 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:55,842 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:55,842 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:55,843 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:55,843 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:55,844 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:56,019 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:56,019 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:56,019 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:56,019 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:56,020 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:56,020 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:56,182 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:56,183 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:56,183 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:56,183 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:56,184 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:56,184 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:56,390 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:56,390 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:56,391 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:56,391 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:56,391 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:56,392 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:39:56,619 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=64: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-25 16:39:56,619 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-25 16:39:56,619 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-25 16:39:56,619 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-25 16:39:56,620 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-25 16:39:56,620 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-25 16:40:56,623 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:40:56,623 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:40:56,624 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 16:40:56,629 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-25 16:41:56,638 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:41:56,638 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:41:56,639 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 16:41:56,642 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-25 16:42:56,646 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:42:56,646 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:42:56,647 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 16:42:56,650 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-25 16:43:56,654 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:43:56,654 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:43:56,655 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 16:43:56,661 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-25 16:44:56,665 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:44:56,665 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:44:56,666 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 16:44:56,673 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-25 16:45:56,676 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:45:56,676 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:45:56,677 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 16:45:56,684 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-25 16:46:56,688 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:46:56,688 I  [LoggingFilter       ] - IDLE
+2014-04-25 16:46:56,689 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-25 16:46:56,692 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]

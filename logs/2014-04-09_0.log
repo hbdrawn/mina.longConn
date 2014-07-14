@@ -1,0 +1,26 @@
+2014-04-09 23:55:31,313 I  [LoggingFilter       ] - CREATED
+2014-04-09 23:55:31,319 I  [LoggingFilter       ] - OPENED
+2014-04-09 23:55:31,325 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-09 23:55:31,325 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"simNo":"sim18701585849","teleNo":"18701585849"},
+2014-04-09 23:56:31,393 I  [LoggingFilter       ] - IDLE
+2014-04-09 23:56:31,393 I  [LoggingFilter       ] - IDLE
+2014-04-09 23:56:31,394 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-09 23:56:31,428 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=2048: FE]
+2014-04-09 23:57:24,963 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-09 23:57:24,963 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-09 23:57:24,966 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-09 23:57:24,968 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-09 23:57:24,968 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-09 23:57:24,991 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-09 23:57:24,991 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-09 23:57:24,992 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position,
+2014-04-09 23:57:24,994 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-09 23:57:24,994 I  [PushClient4Test     ] - 客户端向服务端发送消息:{"loctype":0, "lon":111,"lat":111,"radius":111},
+2014-04-09 23:58:24,998 I  [LoggingFilter       ] - IDLE
+2014-04-09 23:58:24,999 I  [LoggingFilter       ] - IDLE
+2014-04-09 23:58:24,999 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-09 23:58:25,019 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-09 23:59:25,023 I  [LoggingFilter       ] - IDLE
+2014-04-09 23:59:25,023 I  [LoggingFilter       ] - IDLE
+2014-04-09 23:59:25,024 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-09 23:59:25,045 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]

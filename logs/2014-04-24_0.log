@@ -1,0 +1,167 @@
+2014-04-24 11:11:14,180 I  [LoggingFilter       ] - CREATED
+2014-04-24 11:11:14,186 I  [LoggingFilter       ] - OPENED
+2014-04-24 11:11:14,192 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-24 11:11:14,192 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"13401167851","teleNo":"13401167851"}
+2014-04-24 11:11:14,193 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-24 11:11:14,193 I  [PushClient4Test     ] - 客户端向服务端发送消息:add:{"simNo":"sim18701585849","teleNo":"18701585849"}
+2014-04-24 11:11:23,717 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-24 11:11:23,717 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-24 11:11:23,719 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-24 11:11:23,720 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-24 11:11:23,720 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-24 11:11:23,721 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-24 11:11:28,839 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 70 6F 73 69 74 69 6F 6E 0A]
+2014-04-24 11:11:28,839 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-24 11:11:28,839 I  [PushClient4Test     ] - >>>>客户端接收数据：position
+2014-04-24 11:11:28,840 I  [PushClient4Test     ] - 客户端接受到服务端命令请求:position
+2014-04-24 11:11:28,840 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2014-04-24 11:11:28,840 I  [PushClient4Test     ] - 客户端向服务端发送消息:position:{"loctype":0, "lon":111,"lat":111,"radius":111}
+2014-04-24 11:12:28,846 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:12:28,847 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:12:28,847 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:12:28,847 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FF]
+2014-04-24 11:12:28,847 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:12:28,848 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=1024: FE]
+2014-04-24 11:13:28,853 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:13:28,853 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:13:28,853 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:13:28,854 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FF]
+2014-04-24 11:13:28,854 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:13:28,854 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=512: FE]
+2014-04-24 11:14:28,859 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:14:28,859 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:14:28,860 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:14:28,860 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FF]
+2014-04-24 11:14:28,860 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:14:28,860 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=256: FE]
+2014-04-24 11:15:28,864 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:15:28,864 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:15:28,864 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:15:28,865 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FF]
+2014-04-24 11:15:28,865 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:15:28,865 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=128: FE]
+2014-04-24 11:16:28,870 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-24 11:16:28,870 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:17:28,873 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:17:28,874 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:17:28,874 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:17:28,875 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-24 11:17:28,875 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:17:28,875 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-24 11:18:28,878 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:18:28,878 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:18:28,879 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:18:28,879 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-24 11:18:28,879 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:18:58,882 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:18:58,882 W  [KeepAliveFilter     ] - A keep-alive response message was not received within 30 second(s).
+2014-04-24 11:19:28,884 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:19:28,885 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:19:28,885 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:19:28,885 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-24 11:19:28,886 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:19:58,888 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:19:58,888 W  [KeepAliveFilter     ] - A keep-alive response message was not received within 30 second(s).
+2014-04-24 11:20:28,889 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:20:28,889 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:20:28,890 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:20:28,890 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-24 11:20:28,890 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:20:28,890 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-24 11:21:28,894 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:21:28,894 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:21:28,895 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:21:28,895 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-24 11:21:28,895 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:21:28,895 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-24 11:22:29,095 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:22:29,095 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:22:29,095 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:22:29,095 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-24 11:22:29,095 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:22:29,095 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-24 11:23:29,925 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:23:29,925 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:23:29,925 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:23:29,925 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=2 cap=64: FF FE]
+2014-04-24 11:23:29,925 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-24 11:24:00,362 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:24:00,362 W  [KeepAliveFilter     ] - A keep-alive response message was not received within 30 second(s).
+2014-04-24 11:24:30,783 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:24:30,783 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:24:30,783 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:24:30,783 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-24 11:24:30,783 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:24:30,783 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-24 11:25:31,615 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:25:31,615 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:25:31,615 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:25:31,615 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-24 11:25:31,615 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:25:31,615 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FE]
+2014-04-24 11:26:32,456 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:26:32,456 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:26:32,456 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:26:32,456 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=2 cap=64: FF FE]
+2014-04-24 11:26:32,456 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-24 11:27:02,877 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:27:02,877 W  [KeepAliveFilter     ] - A keep-alive response message was not received within 30 second(s).
+2014-04-24 11:27:33,299 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:27:33,299 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:27:33,299 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:27:33,299 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=1 cap=64: FF]
+2014-04-24 11:27:33,299 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FE]
+2014-04-24 11:28:03,706 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:28:03,706 W  [KeepAliveFilter     ] - A keep-alive response message was not received within 30 second(s).
+2014-04-24 11:28:34,074 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:28:34,074 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:28:34,074 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:28:34,074 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=2 cap=64: FF FE]
+2014-04-24 11:28:34,074 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-24 11:29:04,495 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:29:04,495 W  [KeepAliveFilter     ] - A keep-alive response message was not received within 30 second(s).
+2014-04-24 11:29:34,916 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:29:34,916 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:29:34,916 I  [LoggingFilter       ] - SENT: HeapBuffer[pos=0 lim=1 cap=1: FF]
+2014-04-24 11:29:34,916 I  [LoggingFilter       ] - RECEIVED: HeapBuffer[pos=0 lim=2 cap=64: FF FE]
+2014-04-24 11:29:34,916 D  [ProtocolCodecFilter ] - Processing a MESSAGE_RECEIVED for session 1
+2014-04-24 11:30:05,337 I  [LoggingFilter       ] - IDLE
+2014-04-24 11:30:05,337 W  [KeepAliveFilter     ] - A keep-alive response message was not received within 30 second(s).
+2014-04-24 11:30:16,337 W  [LoggingFilter       ] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-24 11:30:16,337 W  [PushClient4Test     ] - EXCEPTION, please implement com.hbdrawn.push.PushClient4Test.exceptionCaught() for proper handling:
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198) ~[na:1.6.0_31]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:171) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243) ~[na:1.6.0_31]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_31]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_31]
+2014-04-24 11:30:16,353 E  [PushClient4Test     ] - 连接已断开，正在重试[2]...
+2014-04-24 11:30:16,353 I  [LoggingFilter       ] - CLOSED
