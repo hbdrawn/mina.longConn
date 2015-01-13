@@ -1,4 +1,4 @@
-package com.hbdrawn.push;
+package com.hbdrawn.push.client;
 
 public class PushClient4Test extends PushClient {
 

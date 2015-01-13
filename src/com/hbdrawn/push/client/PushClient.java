@@ -1,4 +1,4 @@
-package com.hbdrawn.push;
+package com.hbdrawn.push.client;
 
 import java.net.InetSocketAddress;
 import java.nio.charset.Charset;
