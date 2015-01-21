@@ -16,19 +16,6 @@ public class SysConstant {
 	// public static int server_socket_heartbreat_timeout;
 	// public static int server_socket_idleTime = 10000;
 
-	//unsigned short
-	public static int tag_0x0100 = 256; // 设备注册
-	public static int tag_0x8100 = 33024; // 终端注册应答 
-	public static int tag_0x0003 = 3; // 终端注销
-	public static int tag_0x0501 = 1281; // 终端鉴权
-	// public static int tag_0x9563 = 38243;
-	// public static int tag_0x9563 = 38243;
-	// public static int tag_0x9563 = 38243;
-	// public static int tag_0x9563 = 38243;
-	// public static int tag_0x9563 = 38243;
-	// public static int tag_0x9563 = 38243;
-	public static int tag_0x9563 = 38243; // 服务器下发强制开门/关门
-
 	// tags
 	public static byte tag_v_conn = 1;
 	public static byte tag_v_test = 99;

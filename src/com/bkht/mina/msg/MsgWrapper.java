@@ -1,11 +1,13 @@
-package com.bkht.mina.comm;
+package com.bkht.mina.msg;
 
+import com.bkht.mina.comm.SocketMessage;
 import com.bkht.mina.utils.ByteTools;
+import com.bkht.mina.utils.StringTools;
 
 //消息体封装
-public class SocketMessageWrapper {
+public class MsgWrapper {
 
-	private short msgId; // 消息ID; 2 byte
+	private String msgId; // 消息ID; 2 byte,unsighn short,这里用stringhex表示
 
 	private BodyPros bodyPros; // 消息体属性; 2 byte
 
@@ -18,13 +20,14 @@ public class SocketMessageWrapper {
 	private byte[] msgBody; // 消息体
 
 	public static final int MAX_BUFFER = 1021;
+	public static final String HEX_PREFIX = "0x";
 	public static final short sign = (short) 61568; // F0 80
 
-	public SocketMessageWrapper() {
+	public MsgWrapper() {
 	}
 
-	public SocketMessageWrapper(byte[] abuffer) throws Exception {
-		setMsgId(SocketMessage.getShort(abuffer, 0));
+	public MsgWrapper(byte[] abuffer) throws Exception {
+		msgId = StringTools.getMsgIdFromBytes(abuffer, 0);
 		bodyPros = new BodyPros(new byte[] { abuffer[2], abuffer[3] });
 		byte[] carId_tmp = new byte[6];
 		System.arraycopy(abuffer, 4, carId_tmp, 0, 6);
@@ -48,7 +51,7 @@ public class SocketMessageWrapper {
 		if (msgBody == null || bodyPros == null || carId == null) {
 			throw new Exception("参数不合法");
 		}
-		byte[] msgIdBytes = ByteTools.getShort(msgId);
+		byte[] msgIdBytes = setMsgId(msgId);
 		byte[] bodyProsBytes = bodyPros.getBytes();
 		byte[] carIdBytes = ByteTools.asc2Bcd(carId.getBytes());
 		if (carIdBytes.length != 6) {
@@ -76,15 +79,19 @@ public class SocketMessageWrapper {
 			System.arraycopy(msgBody, 0, msg, 12, msgBody.length);
 		}
 
-		return null;
+		return msg;
 	}
 
-	public short getMsgId() {
+	// msgId是bytes<=>hexstring
+	public String getMsgId() {
 		return msgId;
 	}
 
-	public void setMsgId(short msgId) {
-		this.msgId = msgId;
+	public byte[] setMsgId(String hex) throws Exception {
+		if (!hex.startsWith(HEX_PREFIX)) {
+			hex = HEX_PREFIX + hex;
+		}
+		return StringTools.hexTableString2Byte(hex);
 	}
 
 	public BodyPros getBodyPros() {
@@ -127,83 +134,12 @@ public class SocketMessageWrapper {
 		this.msgBody = msgBody;
 	}
 
-	// 消息体属性，两个字节
-	class BodyPros {
-		public String reserved = "00"; // 保留 2bit
-		public String packageNum; // 分包 1bit
-		public String encrypt; // 数据加密方式，3bit
-		public short bodyLen; // 消息体长度，10bit 故单包的最大长度为2^10-1=1021字节
-
-		BodyPros(byte[] abuffer) {
-			String str = ByteTools.byteToBit(abuffer[0])
-					+ ByteTools.byteToBit(abuffer[1]);
-			reserved = str.substring(0, 2);
-			packageNum = str.substring(2, 3);
-			encrypt = str.substring(3, 6);
-			bodyLen = Short.valueOf(str.substring(6, 16), 2);
-		}
-
-		BodyPros(String packageNum, String encrypt, short bodyLen) {
-			this.packageNum = packageNum;
-			this.encrypt = encrypt;
-			this.bodyLen = bodyLen;
-		}
-
-		public byte[] getBytes() throws Exception {
-			if (bodyLen > MAX_BUFFER) {
-				throw new Exception("消息体长度错误，最大为1021字节，当前为[" + bodyLen + "]");
-			}
-			// 预加2bit，带转换为byte后去除
-			String prefix = reserved + packageNum + encrypt + "00";
-			byte bitToByte = ByteTools.BitToByte(prefix);
-			byte[] all = ByteTools.getShort(bodyLen);
-			System.arraycopy(bitToByte, 0, all, 0, 6);
-			return all;
-		}
-
-		public String toString() {
-			return "{reserved:" + reserved + ",packageNum:" + packageNum
-					+ ",encrypt:" + encrypt + ",bodyLen" + bodyLen + "}";
-		}
-	}
-
-	// 消息包封装项 4字节
-	class MsgPackage {
-		public short sum; // 消息包总数 2字节
-		public short serial; // 包序号 2字节
-
-		MsgPackage(byte[] buffer) {
-			sum = SocketMessage.getShort(buffer, 0);
-			serial = SocketMessage.getShort(buffer, 2);
-		}
-
-		MsgPackage(short sum, short serial) {
-			this.sum = sum;
-			this.serial = serial;
-		}
-
-		public byte[] getBytes() {
-			byte[] bytes = new byte[4];
-			byte[] sumb = ByteTools.getShort(sum);
-			byte[] serialb = ByteTools.getShort(serial);
-			System.arraycopy(sumb, 0, bytes, 0, 2);
-			System.arraycopy(serialb, 0, bytes, 2, 2);
-			return bytes;
-		}
-
-		public String toString() {
-			if (sum == 0 || serial == 0) {
-				return null;
-			} else {
-				return "{sum:" + sum + ",serial:" + serial + "}";
-			}
-		}
-	}
-
 	public String toString() {
-		return "{msgId:" + msgId + "bodyPros:" + bodyPros.toString()
-				+ ",carId:" + carId + ",msgSerial" + msgSerial + ",msgPackage:"
-				+ msgPackage.toString() + ",msgBody:" + new String(msgBody)
-				+ "}";
+		return "{msgId:" + msgId + ",bodyPros:" + bodyPros.toString()
+				+ ",carId:" + carId + ",msgSerial:" + msgSerial
+				+ ",msgPackage:"
+				+ (msgPackage == null ? "null" : msgPackage.toString())
+				+ ",msgBody:" + new String(msgBody) + "}";
 	}
+
 }

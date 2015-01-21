@@ -7,13 +7,11 @@ import org.slf4j.LoggerFactory;
 
 import com.bkht.mina.comm.SessionWrap;
 import com.bkht.mina.comm.SocketMessage;
-import com.bkht.mina.comm.SocketMessageWrapper;
-import com.bkht.mina.trade.SysConstant;
-import com.bkht.mina.trade.T256;
+import com.bkht.mina.msg.MsgWrapper;
 import com.bkht.mina.trade.TradeAbstract;
 
 public class VehicleSocketHandler extends IoHandlerAdapter {
-	private static Logger log = LoggerFactory
+	private static Logger logger = LoggerFactory
 			.getLogger(VehicleSocketHandler.class);
 
 	/**
@@ -22,7 +20,8 @@ public class VehicleSocketHandler extends IoHandlerAdapter {
 	@Override
 	public void exceptionCaught(IoSession session, Throwable cause)
 			throws Exception {
-		log.error("vehicle socket execption", cause);
+		// TODO
+		// logger.error("vehicle socket execption", cause);
 	}
 
 	/**
@@ -31,8 +30,14 @@ public class VehicleSocketHandler extends IoHandlerAdapter {
 	@Override
 	public void messageReceived(IoSession session, Object obj) throws Exception {
 		SocketMessage msg = (SocketMessage) obj;
-		SocketMessageWrapper wrapper = new SocketMessageWrapper(msg.getBytes());
-		short msgId = wrapper.getMsgId();
+		MsgWrapper wrapper = new MsgWrapper(msg.getBytes());
+		// 对消息体长度进行验证
+		if (wrapper.getBodyPros().bodyLen != wrapper.getMsgBody().length) {
+			throw new Exception("报文头中报文体长度与报文体实际长度不符[bodyLen="
+					+ wrapper.getBodyPros().bodyLen + ",body.len="
+					+ wrapper.getMsgBody().length + "]");
+		}
+		String msgId = wrapper.getMsgId();
 		String carId = wrapper.getCarId();
 		SessionWrap sessionWrap = VehicleSessionHolder.getSession("" + carId);
 		if (sessionWrap == null) {
@@ -47,33 +52,16 @@ public class VehicleSocketHandler extends IoHandlerAdapter {
 		}
 		sessionWrap.setLastActiveTime(System.currentTimeMillis());
 
-		TradeAbstract trade = null;
-		if (msgId == SysConstant.tag_0x0100) {
-			trade = new T256(wrapper);
-		} else {
-			throw new Exception("交易码错误：" + msgId);
+		logger.info("交易码:{}", msgId);
+		Class<?> class1 = null;
+		try {
+			class1 = Class.forName("com.bkht.mina.trade.T0x" + msgId);
+		} catch (ClassNotFoundException ex) {
+			throw new Exception("交易码错误或交易不存在:" + msgId);
 		}
+		TradeAbstract trade = (TradeAbstract) class1.newInstance();
 
-		trade.doHandler(session);
-		// if (tag == SysConstant.tag_v_test) {
-		// // 客户端测试
-		// int id = msg.getID();
-		// SocketMessage returnMsg = new SocketMessage();
-		// returnMsg.addByte(SysConstant.tag_v_test_reply);
-		// returnMsg.addInt(id);
-		// returnMsg.addInt(carid);
-		// returnMsg.addShort((short) 10000);
-		// returnMsg.addTime(System.currentTimeMillis());
-		// returnMsg.addDouble(114.12345);
-		// returnMsg.addRfid("4D66C6C6");
-		// // 发送测试数据
-		// SocketSender.sendToVehicle(returnMsg);
-		// return;
-		// }
-
-		// 转发给服务器
-		// if (msg.getTag() <= 100)
-		// SocketSender.sendToServer(msg);
+		trade.doHandler(session, wrapper);
 	}
 
 	/**
@@ -89,7 +77,7 @@ public class VehicleSocketHandler extends IoHandlerAdapter {
 	 */
 	@Override
 	public void sessionClosed(IoSession session) throws Exception {
-		log.info("vehicle session closed");
+		logger.info("vehicle session closed");
 		super.sessionClosed(session);
 	}
 
@@ -98,7 +86,7 @@ public class VehicleSocketHandler extends IoHandlerAdapter {
 	 */
 	@Override
 	public void sessionCreated(IoSession session) throws Exception {
-		log.info("vehicle session created");
+		logger.info("vehicle session created");
 		super.sessionCreated(session);
 	}
 
@@ -107,7 +95,7 @@ public class VehicleSocketHandler extends IoHandlerAdapter {
 	 */
 	@Override
 	public void sessionOpened(IoSession session) throws Exception {
-		log.info("vehicle session opened");
+		logger.info("vehicle session opened");
 		super.sessionOpened(session);
 	}
 

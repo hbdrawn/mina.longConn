@@ -947,4 +947,15 @@ public class StringTools {
 	// str = "asdfkljjkl;;;;;";
 	// System.out.println(StringTools.byte2String(b2));
 	// }
+	public static String getMsgIdFromBytes(byte[] buff, int pos) {
+		if (pos > buff.length - 2 || pos < 0)
+			try {
+				throw new Exception("Socket buffer Overflow");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		byte[] buffer = new byte[2];
+		System.arraycopy(buff, 0, buffer, 0, 2);
+		return StringTools.toHexString(buffer);
+	}
 }
