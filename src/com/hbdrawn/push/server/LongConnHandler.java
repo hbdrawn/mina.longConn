@@ -6,7 +6,7 @@ import org.apache.mina.core.session.IoSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-class LongConnHandler extends IoHandlerAdapter {
+public class LongConnHandler extends IoHandlerAdapter {
 	public Logger logger = LoggerFactory.getLogger(getClass());
 
 	// 重试次数
