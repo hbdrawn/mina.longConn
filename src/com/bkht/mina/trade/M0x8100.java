@@ -2,7 +2,7 @@ package com.bkht.mina.trade;
 
 import com.bkht.mina.comm.SocketMessage;
 
-public class M0x8100 {
+public class M0x8100 implements MsgAbstract {
 
 	private short msgSeiral; // 应答流水号
 

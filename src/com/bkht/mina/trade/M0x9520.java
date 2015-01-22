@@ -3,7 +3,7 @@ package com.bkht.mina.trade;
 import com.bkht.mina.comm.SocketMessage;
 import com.bkht.mina.utils.StringTools;
 
-public class M0x9520 {
+public class M0x9520 implements MsgAbstract {
 
 	private short msgSerial; // 应答流水号
 	private String msgId; // 对应终端消息的ID 2bytes

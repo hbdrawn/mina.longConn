@@ -4,7 +4,7 @@ import com.bkht.mina.comm.SocketMessage;
 import com.bkht.mina.utils.StringTools;
 import com.bkht.mina.utils.TimeUtils;
 
-public class M0x9501 {
+public class M0x9501 implements MsgAbstract {
 
 	private short msgSerial; // 应答流水号
 	private String msgId; // 对应终端消息的ID 2bytes
