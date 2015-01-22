@@ -32,7 +32,9 @@ public class VehicleSocketHandler extends IoHandlerAdapter {
 		SocketMessage msg = (SocketMessage) obj;
 		MsgWrapper wrapper = new MsgWrapper(msg.getBytes());
 		// 对消息体长度进行验证
-		if (wrapper.getBodyPros().bodyLen != wrapper.getMsgBody().length) {
+		if (wrapper.getBodyPros().bodyLen == 0) {
+			logger.info("报文体内容为空");
+		} else if (wrapper.getBodyPros().bodyLen != wrapper.getMsgBody().length) {
 			throw new Exception("报文头中报文体长度与报文体实际长度不符[bodyLen="
 					+ wrapper.getBodyPros().bodyLen + ",body.len="
 					+ wrapper.getMsgBody().length + "]");

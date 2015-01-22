@@ -3,6 +3,7 @@ package com.bkht.mina.trade;
 import org.apache.mina.core.session.IoSession;
 
 import com.bkht.mina.comm.SocketMessage;
+import com.bkht.mina.msg.BodyPros;
 import com.bkht.mina.msg.MsgWrapper;
 import com.bkht.mina.utils.ByteTools;
 import com.bkht.mina.utils.StringTools;
@@ -11,7 +12,7 @@ import com.bkht.mina.utils.StringTools;
 public class T0x0100 extends TradeAbstract {
 
 	@Override
-	public void unpackBody(MsgWrapper wrapper) {
+	public void unpackBody() throws Exception{
 		byte[] body = wrapper.getMsgBody();
 		// 省域ID
 		short provinceId = SocketMessage.getShort(body, 0);
@@ -42,9 +43,19 @@ public class T0x0100 extends TradeAbstract {
 				color, carId);
 	}
 
-	
-	public void response(IoSession session) {
-		
+	public void response(IoSession session) throws Exception {
+		M0x8100 res = new M0x8100();
+		res.setMsgSeiral(wrapper.getMsgSerial());
+		res.setResult((byte) 0x00);
+		// 鉴权码如何获得TODO
+		res.setCheckCode(1);
+		// 设置消息头属性
+		byte[] msgBody = res.getBody();
+		BodyPros bodyPros = new BodyPros("0", "000", (short) msgBody.length);
+		MsgWrapper resWrapper = new MsgWrapper("8100", bodyPros,
+				wrapper.getCarId(), wrapper.getMsgSerial(), null, msgBody);
+		byte[] abuffer = resWrapper.getBytes();
+		SocketMessage sm = new SocketMessage(abuffer.length, abuffer);
+		session.write(sm);
 	}
-
 }

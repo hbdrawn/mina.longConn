@@ -33,7 +33,7 @@ public class MyResponseDecoder extends CumulativeProtocolDecoder {
 					// 第一步：进行转义还原TODO
 					buffer = decode(buffer);
 					// 第二步，进行校验TODO
-					verify(buffer);
+					buffer = verify(buffer);
 					SocketMessage msg = new SocketMessage(buffer.length, buffer);
 					out.write(msg);
 					previous = 0x00;
@@ -103,14 +103,17 @@ public class MyResponseDecoder extends CumulativeProtocolDecoder {
 		return handlerBuffer;
 	}
 
-	private void verify(byte[] buffer) throws Exception {
+	private byte[] verify(byte[] buffer) throws Exception {
 		byte result = 0x00;
 		for (int i = 0; i < buffer.length - 1; i++) {
 			result = (byte) (result ^ buffer[i]);
 		}
 		if (result != buffer[buffer.length - 1]) {
-			throw new Exception("数据校验错误");
+			throw new Exception("数据校验错误:" + buffer[buffer.length - 1]);
 		}
-		logger.info("数据校验成功");
+		logger.info("数据校验成功,校验码:{}", result);
+		byte[] buff = new byte[buffer.length - 1];
+		System.arraycopy(buffer, 0, buff, 0, buff.length);
+		return buff;
 	}
 }

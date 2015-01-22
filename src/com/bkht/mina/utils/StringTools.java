@@ -135,6 +135,11 @@ public class StringTools {
 		return newData;
 	}
 
+	// public static void main(String[] args) throws Exception {
+	// byte[] bs = StringTools.string2Byte("8100");
+	// System.out.println(StringTools.toHexTable(bs));
+	// }
+	
 	/**
 	 * 默认截取字符串前38K数据，其后补16长度的省略号（日志输出时使用，防止输出过多的日志信息）<br>
 	 * 若38K均为汉字，则实际字节数为38*2字节

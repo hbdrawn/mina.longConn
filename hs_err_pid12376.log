@@ -1,7 +1,7 @@
 #
 # A fatal error has been detected by the Java Runtime Environment:
 #
-#  Internal Error (javaCalls.cpp:59), pid=6864, tid=5620
+#  Internal Error (javaCalls.cpp:59), pid=12376, tid=11428
 #  guarantee(thread->is_Java_thread()) failed: crucial check - the VM thread cannot and must not escape to Java code
 #
 # JRE version: 6.0_31-b05
@@ -12,52 +12,52 @@
 
 ---------------  T H R E A D  ---------------
 
-Current thread (0x0000000000520000):  VMThread [stack: 0x00000000064f0000,0x00000000065f0000] [id=5620]
+Current thread (0x0000000000520000):  VMThread [stack: 0x0000000006500000,0x0000000006600000] [id=11428]
 
-Stack: [0x00000000064f0000,0x00000000065f0000]
+Stack: [0x0000000006500000,0x0000000006600000]
 [error occurred during error reporting (printing stack bounds), id 0xc0000005]
 
-VM_Operation (0x0000000006f2f8d0): GetOrSetLocal, mode: safepoint, requested by thread 0x0000000006856000
+VM_Operation (0x000000000723f8d0): GetOrSetLocal, mode: safepoint, requested by thread 0x0000000006868800
 
 
 ---------------  P R O C E S S  ---------------
 
 Java Threads: ( => current thread )
-  0x0000000007970000 JavaThread "NioProcessor-3" [_thread_blocked, id=6724, stack(0x0000000007cb0000,0x0000000007db0000)]
-  0x00000000005fc800 JavaThread "DestroyJavaVM" [_thread_blocked, id=6972, stack(0x0000000002580000,0x0000000002680000)]
-  0x000000000796e000 JavaThread "NioSocketAcceptor-1" [_thread_in_native, id=6368, stack(0x0000000007bb0000,0x0000000007cb0000)]
-  0x000000000688a800 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=6304, stack(0x00000000075b0000,0x00000000076b0000)]
-  0x0000000006879000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=6252, stack(0x00000000074b0000,0x00000000075b0000)]
-  0x0000000006881800 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=5412, stack(0x00000000073b0000,0x00000000074b0000)]
-  0x000000000686b000 JavaThread "JDWP Command Reader" daemon [_thread_in_native, id=6384, stack(0x00000000071a0000,0x00000000072a0000)]
-  0x000000000685e000 JavaThread "JDWP Event Helper Thread" daemon [_thread_blocked, id=6536, stack(0x0000000006f70000,0x0000000007070000)]
-  0x0000000006856000 JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_blocked, id=6576, stack(0x0000000006e30000,0x0000000006f30000)]
-  0x000000000684c000 JavaThread "Attach Listener" daemon [_thread_blocked, id=3564, stack(0x0000000006af0000,0x0000000006bf0000)]
-  0x0000000006846800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=4808, stack(0x00000000069f0000,0x0000000006af0000)]
-  0x0000000000527800 JavaThread "Finalizer" daemon [_thread_blocked, id=5684, stack(0x00000000066f0000,0x00000000067f0000)]
-  0x0000000000526800 JavaThread "Reference Handler" daemon [_thread_blocked, id=2880, stack(0x00000000065f0000,0x00000000066f0000)]
+  0x0000000007b79800 JavaThread "NioProcessor-3" [_thread_blocked, id=21912, stack(0x0000000007e80000,0x0000000007f80000)]
+  0x00000000003ac800 JavaThread "DestroyJavaVM" [_thread_blocked, id=16776, stack(0x00000000024d0000,0x00000000025d0000)]
+  0x00000000069d7800 JavaThread "NioSocketAcceptor-1" [_thread_in_native, id=16588, stack(0x0000000007d80000,0x0000000007e80000)]
+  0x0000000006885000 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=15272, stack(0x0000000007780000,0x0000000007880000)]
+  0x0000000006884000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=24304, stack(0x0000000007680000,0x0000000007780000)]
+  0x000000000688d800 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=21388, stack(0x0000000007580000,0x0000000007680000)]
+  0x000000000686e000 JavaThread "JDWP Command Reader" daemon [_thread_in_native, id=20048, stack(0x0000000007480000,0x0000000007580000)]
+  0x000000000686a800 JavaThread "JDWP Event Helper Thread" daemon [_thread_blocked, id=20812, stack(0x0000000007380000,0x0000000007480000)]
+  0x0000000006868800 JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_blocked, id=25156, stack(0x0000000007140000,0x0000000007240000)]
+  0x0000000006815800 JavaThread "Attach Listener" daemon [_thread_blocked, id=22432, stack(0x0000000006b00000,0x0000000006c00000)]
+  0x0000000006810800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=17948, stack(0x0000000006a00000,0x0000000006b00000)]
+  0x000000000052d000 JavaThread "Finalizer" daemon [_thread_blocked, id=19356, stack(0x0000000006700000,0x0000000006800000)]
+  0x0000000000526000 JavaThread "Reference Handler" daemon [_thread_blocked, id=19976, stack(0x0000000006600000,0x0000000006700000)]
 
 Other Threads:
-=>0x0000000000520000 VMThread [stack: 0x00000000064f0000,0x00000000065f0000] [id=5620]
-  0x00000000068a5800 WatcherThread [stack: 0x00000000076b0000,0x00000000077b0000] [id=6300]
+=>0x0000000000520000 VMThread [stack: 0x0000000006500000,0x0000000006600000] [id=11428]
+  0x00000000068ad800 WatcherThread [stack: 0x0000000007880000,0x0000000007980000] [id=7004]
 
 VM state:at safepoint (normal execution)
 
 VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
-[0x00000000005fa890] Threads_lock - owner thread: 0x0000000000520000
+[0x00000000003aa890] Threads_lock - owner thread: 0x0000000000520000
 
 Heap
- PSYoungGen      total 27968K, used 16491K [0x00000000e0cb0000, 0x00000000e2be0000, 0x0000000100000000)
-  eden space 24000K, 68% used [0x00000000e0cb0000,0x00000000e1ccad50,0x00000000e2420000)
+ PSYoungGen      total 27968K, used 14582K [0x00000000e0cb0000, 0x00000000e2be0000, 0x0000000100000000)
+  eden space 24000K, 60% used [0x00000000e0cb0000,0x00000000e1aed830,0x00000000e2420000)
   from space 3968K, 0% used [0x00000000e2800000,0x00000000e2800000,0x00000000e2be0000)
   to   space 3968K, 0% used [0x00000000e2420000,0x00000000e2420000,0x00000000e2800000)
  PSOldGen        total 63872K, used 0K [0x00000000a2600000, 0x00000000a6460000, 0x00000000e0cb0000)
   object space 63872K, 0% used [0x00000000a2600000,0x00000000a2600000,0x00000000a6460000)
- PSPermGen       total 21248K, used 10312K [0x000000009d400000, 0x000000009e8c0000, 0x00000000a2600000)
-  object space 21248K, 48% used [0x000000009d400000,0x000000009de12278,0x000000009e8c0000)
+ PSPermGen       total 21248K, used 10353K [0x000000009d400000, 0x000000009e8c0000, 0x00000000a2600000)
+  object space 21248K, 48% used [0x000000009d400000,0x000000009de1c480,0x000000009e8c0000)
 
-Code Cache  [0x0000000002680000, 0x00000000028f0000, 0x0000000005680000)
- total_blobs=260 nmethods=32 adapters=190 free_code_cache=49845632 largest_free_block=6656
+Code Cache  [0x00000000025d0000, 0x0000000002840000, 0x00000000055d0000)
+ total_blobs=258 nmethods=30 adapters=190 free_code_cache=49847232 largest_free_block=18368
 
 Dynamic libraries:
 0x0000000000400000 - 0x000000000042f000 	D:\env\jdk\jdk-6u31-windows-x64\bin\javaw.exe
@@ -108,7 +108,7 @@ Dynamic libraries:
 0x0000000076f10000 - 0x0000000076f17000 	C:\windows\system32\PSAPI.DLL
 
 VM Arguments:
-jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:50196 -Dfile.encoding=UTF-8 
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:59524 -Dfile.encoding=UTF-8 
 java_command: com.bkht.mina.MinaServiceStart
 Launcher Type: SUN_STANDARD
 
@@ -128,10 +128,10 @@ OS: Windows 7 , 64 bit Build 7600
 
 CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
 
-Memory: 4k page, physical 6128116k(3640180k free), swap 12254324k(9186604k free)
+Memory: 4k page, physical 6128116k(2779488k free), swap 12254324k(7745888k free)
 
 vm_info: Java HotSpot(TM) 64-Bit Server VM (20.6-b01) for windows-amd64 JRE (1.6.0_31-b05), built on Feb  3 2012 18:34:57 by "java_re" with MS VC++ 8.0 (VS2005)
 
-time: Wed Jan 21 11:30:11 2015
-elapsed time: 988 seconds
+time: Thu Jan 22 10:59:51 2015
+elapsed time: 925 seconds
 

@@ -1,7 +1,6 @@
 package com.bkht.mina.msg;
 
 import com.bkht.mina.utils.ByteTools;
-import com.bkht.mina.utils.StringTools;
 
 //消息体属性，两个字节
 public class BodyPros {
@@ -31,14 +30,17 @@ public class BodyPros {
 			throw new Exception("消息体长度错误，最大为1021字节，当前为[" + bodyLen + "]");
 		}
 		// 预加2bit，带转换为byte后去除
-		String prefix = reserved + packageNum + encrypt + "00";
+		String prefix = reserved + packageNum + encrypt;
 		// byte bitToByte = ByteTools.BitToByte(prefix);
 		byte[] all = ByteTools.getShort(bodyLen);
 		String str1 = ByteTools.byteToBit(all[0]);
 		String str2 = ByteTools.byteToBit(all[1]);
 		String str = str1 + str2;
 		String bitStr = prefix + str.substring(6);
-		return StringTools.string2Byte(bitStr);
+		byte[] buff = new byte[2];
+		buff[0] = ByteTools.BitToByte(bitStr.substring(0, bitStr.length() / 2));
+		buff[1] = ByteTools.BitToByte(bitStr.substring(bitStr.length() / 2));
+		return buff;
 	}
 
 	public String toString() {

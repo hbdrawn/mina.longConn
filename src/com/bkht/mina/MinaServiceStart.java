@@ -14,6 +14,7 @@ import org.slf4j.LoggerFactory;
 
 import com.bkht.mina.comm.MyCodecFactory;
 import com.bkht.mina.server.VehicleSocketHandler;
+import com.hbdrawn.push.server.TestPush2Clinet;
 
 //import com.hbdrawn.server.ApplicationStartService;
 
@@ -36,7 +37,7 @@ public class MinaServiceStart {
 
 		SocketSessionConfig config = (SocketSessionConfig) accept
 				.getSessionConfig();
-		config.setReadBufferSize(2048);
+		config.setReadBufferSize(1024);
 		config.setReuseAddress(true);
 		config.setUseReadOperation(true);
 		InetSocketAddress address = new InetSocketAddress(
@@ -49,5 +50,9 @@ public class MinaServiceStart {
 	public static void main(String[] args) throws IOException {
 		MinaServiceStart start = new MinaServiceStart();
 		start.start();
+
+		// for test
+		TestPush2Clinet client = new TestPush2Clinet();
+		client.start();
 	}
 }

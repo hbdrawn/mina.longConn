@@ -20,10 +20,20 @@ public class MsgWrapper {
 	private byte[] msgBody; // 消息体
 
 	public static final int MAX_BUFFER = 1021;
-	public static final String HEX_PREFIX = "0x";
+	// public static final String HEX_PREFIX = "0x";
 	public static final short sign = (short) 61568; // F0 80
 
 	public MsgWrapper() {
+	}
+
+	public MsgWrapper(String msgId, BodyPros bodyPros, String carId,
+			short msgSerial, MsgPackage msgPackage, byte[] msgBody) {
+		this.msgId = msgId;
+		this.bodyPros = bodyPros;
+		this.carId = carId;
+		this.msgSerial = msgSerial;
+		this.msgPackage = msgPackage;
+		this.msgBody = msgBody;
 	}
 
 	public MsgWrapper(byte[] abuffer) throws Exception {
@@ -42,8 +52,12 @@ public class MsgWrapper {
 			// 减一是对校验码处理
 			System.arraycopy(abuffer, 16, msgBody, 0, abuffer.length - 16 - 1);
 		} else {
-			msgBody = new byte[abuffer.length - 12];
-			System.arraycopy(abuffer, 12, msgBody, 0, abuffer.length - 12 - 1);
+			// 处理消息体是否为空
+			if (bodyPros.bodyLen != 0) {
+				msgBody = new byte[abuffer.length - 12];
+				System.arraycopy(abuffer, 12, msgBody, 0,
+						abuffer.length - 12 - 1);
+			}
 		}
 	}
 
@@ -88,10 +102,7 @@ public class MsgWrapper {
 	}
 
 	public byte[] setMsgId(String hex) throws Exception {
-		if (!hex.startsWith(HEX_PREFIX)) {
-			hex = HEX_PREFIX + hex;
-		}
-		return StringTools.hexTableString2Byte(hex);
+		return StringTools.string2Byte(hex);
 	}
 
 	public BodyPros getBodyPros() {
@@ -138,8 +149,10 @@ public class MsgWrapper {
 		return "{msgId:" + msgId + ",bodyPros:" + bodyPros.toString()
 				+ ",carId:" + carId + ",msgSerial:" + msgSerial
 				+ ",msgPackage:"
-				+ (msgPackage == null ? "null" : msgPackage.toString())
-				+ ",msgBody:" + new String(msgBody) + "}";
+				+ (msgPackage == null ? null : msgPackage.toString())
+				+ ",msgBody:"
+				+ (msgBody == null ? null : StringTools.toHexString(msgBody))
+				+ "}";
 	}
 
 }

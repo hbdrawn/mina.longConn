@@ -2,6 +2,26 @@ package com.bkht.mina.utils;
 
 public class ByteTools {
 
+	public static String bytesToBit(byte[] b) {
+		StringBuffer sb = new StringBuffer();
+		for (int i = 0; i < b.length; i++) {
+			sb.append(byteToBit(b[i]));
+		}
+		return sb.toString();
+	}
+
+	public static byte[] bitToBytes(String str) throws Exception {
+		if (str.length() % 8 != 0) {
+			throw new Exception("字符串长度错误：" + str.length());
+		}
+		int len = str.length() / 8;
+		byte[] bytes = new byte[len];
+		for (int i = 0; i < len; i++) {
+			bytes[i] = BitToByte(str.substring(i * 8, i * 8 + 8));
+		}
+		return bytes;
+	}
+
 	/**
 	 * Byte转Bit
 	 */

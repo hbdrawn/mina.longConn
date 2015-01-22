@@ -28,6 +28,7 @@ public class MyRequestEncoder implements ProtocolEncoder {
 		// buffer.put((byte) (bytes.length));
 		buffer.put(bytes, 0, bytes.length);
 		buffer.put(ProtocolUtils.FLAG);
+		logger.debug("发送报文[不包含标志位]:\n{}", StringTools.toHexTable(bytes));
 		buffer.flip();
 		out.write(buffer);
 	}
@@ -59,20 +60,23 @@ public class MyRequestEncoder implements ProtocolEncoder {
 		// 长度计数
 		int j = 0;
 		for (int i = 0; i < buffer.length; i++) {
-			newBuffer[j] = buffer[i];
 			if (buffer[i] == ProtocolUtils.FLAG) {
-				newBuffer[j + 1] = ProtocolUtils.ESCAP;
-				newBuffer[j + 2] = ProtocolUtils.ESCAP_02;
+				newBuffer[j] = ProtocolUtils.ESCAP;
+				newBuffer[j + 1] = ProtocolUtils.ESCAP_02;
 				j += 2;
 			} else if (buffer[i] == ProtocolUtils.ESCAP) {
+				newBuffer[j] = ProtocolUtils.ESCAP;
 				newBuffer[j + 1] = ProtocolUtils.ESCAP_01;
-				j++;
+				j += 2;
+			} else {
+				newBuffer[j++] = buffer[i];
 			}
 		}
-		byte[] handlerBuffer = new byte[j + 2];
-		System.arraycopy(newBuffer, 0, handlerBuffer, 1, j);
-		handlerBuffer[0] = ProtocolUtils.FLAG;
-		handlerBuffer[j + 1] = ProtocolUtils.FLAG;
+
+		byte[] handlerBuffer = new byte[j];
+		System.arraycopy(newBuffer, 0, handlerBuffer, 0, j);
+		// handlerBuffer[0] = ProtocolUtils.FLAG;
+		// handlerBuffer[j + 1] = ProtocolUtils.FLAG;
 		logger.info("报文转义完毕:\n{}", StringTools.toHexString(handlerBuffer));
 		return handlerBuffer;
 	}

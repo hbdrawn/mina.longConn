@@ -1,12 +1,12 @@
 #Fat Jar Configuration File
-#Mon May 26 12:45:15 CST 2014
-onejar.license.required=true
+#Thu Jan 22 13:50:25 CST 2015
+onejar.license.required=false
 manifest.classpath=
 manifest.removesigners=true
-onejar.checkbox=false
-jarname=LSPlatformClient_fat.jar
+onejar.checkbox=true
+jarname=mina.conn_fat.jar
 manifest.mergeall=true
-manifest.mainclass=com.hbdrawn.push.PushClient4Test
+manifest.mainclass=com.bkht.mina.MinaServiceStart
 manifest.file=<createnew>
 jarname.isextern=false
 onejar.expand=
