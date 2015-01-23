@@ -7,7 +7,7 @@ import com.bkht.mina.msg.BodyPros;
 import com.bkht.mina.msg.MsgWrapper;
 
 // 设备注册
-public class T0x0506 extends TradeAbstract {
+public class T0x0506 extends TradeInAbstract {
 
 	@Override
 	public void unpackBody() throws Exception {

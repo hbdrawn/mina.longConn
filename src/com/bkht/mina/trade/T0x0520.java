@@ -3,7 +3,7 @@ package com.bkht.mina.trade;
 import com.bkht.mina.comm.SocketMessage;
 
 // 终端通用应答
-public class T0x0520 extends TradeAbstract {
+public class T0x0520 extends TradeInAbstract {
 
 	@Override
 	public void unpackBody() throws Exception {

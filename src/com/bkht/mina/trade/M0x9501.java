@@ -1,5 +1,7 @@
 package com.bkht.mina.trade;
 
+import java.util.Date;
+
 import com.bkht.mina.comm.SocketMessage;
 import com.bkht.mina.utils.StringTools;
 import com.bkht.mina.utils.TimeUtils;
@@ -9,7 +11,7 @@ public class M0x9501 implements MsgAbstract {
 	private short msgSerial; // 应答流水号
 	private String msgId; // 对应终端消息的ID 2bytes
 	private byte result; // 结果 0：成功/确认；1：失败；2：消息有误
-	private String time; // 服务器时间，bcd[6],YY-MM-DD-hh-mm-ss
+	private Date time; // 服务器时间，bcd[6],YY-MM-DD-hh-mm-ss
 
 	public byte[] getBody() throws Exception {
 		byte[] buff = new byte[11];
@@ -50,7 +52,7 @@ public class M0x9501 implements MsgAbstract {
 		return TimeUtils.getTime(time);
 	}
 
-	public void setTime(String time) {
+	public void setTime(Date time) {
 		this.time = time;
 	}
 

@@ -147,4 +147,49 @@ public class ByteTools {
 		buff[1] = (byte) (num & 0xff);
 		return buff;
 	}
+
+	public static byte IDENTIFY_FLAG = (byte) 0xF0;
+
+	public static String IDENTIFY_FLAG_X = "X";
+
+	public static String IDENTIFY_FLAG_A = "A";
+
+	// 身份证的处理
+	public static String bytes2Identify(byte[] buffer) {
+		StringBuffer sb = new StringBuffer();
+		byte[] bytes = new byte[1];
+		for (int i = 0; i < buffer.length; i++) {
+			if (buffer[i] == IDENTIFY_FLAG) {
+				break;
+			}
+			bytes[0] = buffer[i];
+			sb.append(StringTools.toHexString(bytes));
+
+		}
+		String str = sb.toString();
+		int indexOf = str.indexOf(IDENTIFY_FLAG_A);
+		if (indexOf != -1) {
+			str = str.substring(0, indexOf) + IDENTIFY_FLAG_X;
+		}
+		return str;
+	}
+
+	public static byte[] identify2Bytes(String identify) throws Exception {
+		int index = identify.indexOf(IDENTIFY_FLAG_X);
+		if (index != -1) {
+			identify = identify.substring(0, index) + IDENTIFY_FLAG_A;
+		}
+		byte[] buff = StringTools.string2Byte(identify);
+		byte[] buffer = new byte[buff.length + 1];
+		System.arraycopy(buff, 0, buffer, 0, buff.length);
+		buffer[buffer.length - 1] = IDENTIFY_FLAG;
+		return buffer;
+	}
+
+	// public static void main(String[] args) throws Exception {
+	// String id = "13052819870612183X";
+	// byte[] idb = identify2Bytes(id);
+	// System.out.println(StringTools.toHexTable(idb));
+	// System.out.println(bytes2Identify(idb));
+	// }
 }

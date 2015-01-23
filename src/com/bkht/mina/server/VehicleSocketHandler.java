@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 import com.bkht.mina.comm.SessionWrap;
 import com.bkht.mina.comm.SocketMessage;
 import com.bkht.mina.msg.MsgWrapper;
-import com.bkht.mina.trade.TradeAbstract;
+import com.bkht.mina.trade.TradeInAbstract;
 
 public class VehicleSocketHandler extends IoHandlerAdapter {
 	private static Logger logger = LoggerFactory
@@ -61,7 +61,7 @@ public class VehicleSocketHandler extends IoHandlerAdapter {
 		} catch (ClassNotFoundException ex) {
 			throw new Exception("交易码错误或交易不存在:" + msgId);
 		}
-		TradeAbstract trade = (TradeAbstract) class1.newInstance();
+		TradeInAbstract trade = (TradeInAbstract) class1.newInstance();
 
 		trade.doHandler(session, wrapper);
 	}

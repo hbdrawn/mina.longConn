@@ -9,8 +9,9 @@ import org.apache.mina.filter.keepalive.KeepAliveRequestTimeoutHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
-//当心跳机制启动的时候，需要该工厂类来判断和定制心跳消息  
+//当心跳机制启动的时候，需要该工厂类来判断和定制心跳消息
+//不需要开启心跳线程
+@Deprecated
 public class KeepAliveMessageFactoryImpl implements KeepAliveMessageFactory {
 	private static final byte int_req = -1;
 
@@ -55,12 +56,12 @@ public class KeepAliveMessageFactoryImpl implements KeepAliveMessageFactory {
 	@Override
 	public Object getResponse(IoSession session, Object request) {
 		// 将试用次数复原，心跳发送异常会更改次数
-//		if (session.getAttribute("tryCount") != null) {
-//			int count = (Integer) session.getAttribute("tryCount");
-//			if (count < LongConnHandler.tryCount) {
-//				session.setAttribute("tryCount", LongConnHandler.tryCount);
-//			}
-//		}
+		// if (session.getAttribute("tryCount") != null) {
+		// int count = (Integer) session.getAttribute("tryCount");
+		// if (count < LongConnHandler.tryCount) {
+		// session.setAttribute("tryCount", LongConnHandler.tryCount);
+		// }
+		// }
 		return KAMSG_REP.duplicate();
 	}
 

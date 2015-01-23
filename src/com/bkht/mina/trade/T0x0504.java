@@ -1,5 +1,7 @@
 package com.bkht.mina.trade;
 
+import java.util.Date;
+
 import org.apache.mina.core.session.IoSession;
 
 import com.bkht.mina.comm.SocketMessage;
@@ -10,7 +12,7 @@ import com.bkht.mina.utils.StringTools;
 import com.bkht.mina.utils.TimeUtils;
 
 // 消息位置上传
-public class T0x0504 extends TradeAbstract {
+public class T0x0504 extends TradeInAbstract {
 
 	@Override
 	public void unpackBody() throws Exception {
@@ -36,7 +38,7 @@ public class T0x0504 extends TradeAbstract {
 		// 时间
 		byte[] timeBytes = new byte[6];
 		System.arraycopy(body, 22, timeBytes, 0, 6);
-		String time = TimeUtils.setTime(timeBytes);
+		Date time = TimeUtils.setTime(timeBytes);
 		// 剩余续航里程
 		int surplusDistance = SocketMessage.getInt(body, 28);
 		// 总里程

@@ -6,15 +6,16 @@ import java.util.Date;
 
 public class TimeUtils {
 
-	public static byte[] getTime(String time) throws Exception {
+	public static byte[] getTime(Date time) throws Exception {
+		String str = null;
+		SimpleDateFormat sf = new SimpleDateFormat("yy-MM-DD-hh-mm-ss");
 		if (time == null) {
 			Calendar calendar = Calendar.getInstance();
-			Date date = calendar.getTime();
-			SimpleDateFormat sf = new SimpleDateFormat("yy-MM-DD-hh-mm-ss");
-			time = sf.format(date);
+			time = calendar.getTime();
 		}
+		str = sf.format(time);
 
-		time = time.replaceAll("\\-", "");
+		str = str.replaceAll("\\-", "");
 		// byte[] timeBytes = new byte[6 * 2];
 		// int j = 0;
 		// for (int i = 0; i < split.length; i++) {
@@ -26,11 +27,11 @@ public class TimeUtils {
 		// j += 2;
 		// }
 		// return ByteTools.asc2Bcd(timeBytes);
-		return StringTools.string2Byte(time);
+		return StringTools.string2Byte(str);
 		// return timeBytes;
 	}
 
-	public static String setTime(byte[] timeBytes) throws Exception {
+	public static Date setTime(byte[] timeBytes) throws Exception {
 		// byte[] bcd2Asc = ByteTools.bcd2Asc(timeBytes, true);
 		// short[] date = new short[6];
 		// int j = 0;
@@ -54,9 +55,9 @@ public class TimeUtils {
 				sb.append("-");
 			}
 		}
-		return sb.toString();
+		SimpleDateFormat sf = new SimpleDateFormat("yy-MM-DD-hh-mm-ss");
+		return sf.parse(sb.toString());
 	}
-
 	// public static void main(String[] args) throws Exception {
 	// System.out.println(StringTools.toHexTable(TimeUtils.getTime(null)));
 	// }

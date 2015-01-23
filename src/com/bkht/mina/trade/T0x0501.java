@@ -8,7 +8,7 @@ import com.bkht.mina.msg.MsgWrapper;
 import com.bkht.mina.utils.StringTools;
 
 // 设备注册
-public class T0x0501 extends TradeAbstract {
+public class T0x0501 extends TradeInAbstract {
 
 	@Override
 	public void unpackBody() throws Exception {

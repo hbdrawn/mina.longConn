@@ -9,7 +9,7 @@ import com.bkht.mina.utils.ByteTools;
 import com.bkht.mina.utils.StringTools;
 
 // 设备注册
-public class T0x0100 extends TradeAbstract {
+public class T0x0100 extends TradeInAbstract {
 
 	@Override
 	public void unpackBody() throws Exception{

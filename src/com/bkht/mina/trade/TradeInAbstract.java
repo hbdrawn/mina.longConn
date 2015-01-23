@@ -6,7 +6,8 @@ import org.slf4j.LoggerFactory;
 
 import com.bkht.mina.msg.MsgWrapper;
 
-public abstract class TradeAbstract {
+//终端发起的交易
+public abstract class TradeInAbstract {
 
 	protected Logger logger = LoggerFactory.getLogger(getClass());
 

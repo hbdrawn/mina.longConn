@@ -16,9 +16,7 @@ import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.bkht.mina.comm.SocketMessage;
-import com.bkht.mina.msg.MsgWrapper;
-import com.bkht.mina.server.VehicleSessionHolder;
+import com.bkht.mina.server.SendToVetical;
 
 //import com.hbdrawn.server.ApplicationStartService;
 
@@ -27,6 +25,8 @@ public class TestPush2Clinet extends IoHandlerAdapter {
 	public Logger logger = LoggerFactory.getLogger(getClass());
 
 	public static IoAcceptor accept = null;
+
+	String carId = "";
 
 	// public static String localAddress = null;
 
@@ -52,36 +52,12 @@ public class TestPush2Clinet extends IoHandlerAdapter {
 		logger.info("服务端测试服务启动");
 	}
 
-	@SuppressWarnings("unused")
 	@Override
 	public void messageReceived(IoSession session, Object message)
 			throws Exception {
 		String msg = message.toString();
 		// 订单下发
-		MsgWrapper wrapper = null;
-		if (msg.equals("0x9521")) {
-
-		} else if (msg.equals("0x9560")) {
-			// 询问终端状态
-		} else if (msg.equals("0x9561")) {
-			// 服务器删除终端订单
-		} else if (msg.equals("0x9562")) {
-			// 服务器下发找车
-		} else if (msg.equals("0x9529")) {
-			// 设置终端参数
-		} else if (msg.equals("0x8107")) {
-			// 查询终端参数
-		} else if (msg.equals("0x8108")) {
-			// 下发终端升级包
-		} else {
-			throw new Exception("交易码错误，请重试:" + msg);
-		}
-
-		if (wrapper != null) {
-			VehicleSessionHolder.getSession(wrapper.getCarId()).send(
-					new SocketMessage(wrapper.getBytes().length, wrapper
-							.getBytes()));
-		}
+		SendToVetical.send2Vetical(msg);
 	}
 
 	public void messageSent(IoSession session, Object message) throws Exception {
