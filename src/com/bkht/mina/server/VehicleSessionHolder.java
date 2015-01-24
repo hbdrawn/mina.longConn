@@ -19,9 +19,9 @@ public class VehicleSessionHolder {
 
 	public static SessionWrap getSession(String cardId) throws Exception {
 		SessionWrap session = carSessionMap.get(cardId);
-		if (session == null) {
-			throw new Exception("发送队列为空，尚未有终端建立连接");
-		}
+		// if (session == null) {
+		// throw new Exception("发送队列为空，尚未有终端建立连接");
+		// }
 		return session;
 	}
 }

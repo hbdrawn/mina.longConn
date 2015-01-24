@@ -24,6 +24,9 @@ public class TradeOut {
 	public void doHandler(SessionWrap session) throws Exception {
 		// 拼包
 		// byte[] buffer = packBody();
+		if (session == null) {
+			throw new Exception("发送队列为空，尚未有终端建立连接");
+		}
 		SocketMessage sm = new SocketMessage(wrapper.getBytes().length,
 				wrapper.getBytes());
 		session.send(sm);

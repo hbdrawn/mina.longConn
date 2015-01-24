@@ -56,6 +56,9 @@ public class TestPush2Clinet extends IoHandlerAdapter {
 	public void messageReceived(IoSession session, Object message)
 			throws Exception {
 		String msg = message.toString();
+		if (msg.contains("=")) {
+			session.close(true);
+		}
 		// 订单下发
 		SendToVetical.send2Vetical(msg);
 	}

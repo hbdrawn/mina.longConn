@@ -55,8 +55,7 @@ public class MsgWrapper {
 			// 处理消息体是否为空
 			if (bodyPros.bodyLen != 0) {
 				msgBody = new byte[abuffer.length - 12];
-				System.arraycopy(abuffer, 12, msgBody, 0,
-						abuffer.length - 12 - 1);
+				System.arraycopy(abuffer, 12, msgBody, 0, abuffer.length - 12);
 			}
 		}
 	}
@@ -154,5 +153,13 @@ public class MsgWrapper {
 				+ (msgBody == null ? null : StringTools.toHexString(msgBody))
 				+ "}";
 	}
+
+	// public static void main(String[] args) throws Exception {
+	// String msg = "05200005131013240000A0001122952102";
+	// byte[] string2Byte = StringTools.string2Byte(msg);
+	// MsgWrapper w = new MsgWrapper(string2Byte);
+	// System.out.println(StringTools.toHexTable(w.getMsgBody()));
+	// System.out.println(w.toString());
+	// }
 
 }
