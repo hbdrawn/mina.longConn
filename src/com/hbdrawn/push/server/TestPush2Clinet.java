@@ -16,6 +16,7 @@ import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.bkht.mina.msg.MsgWrapper;
 import com.bkht.mina.server.SendToVetical;
 
 //import com.hbdrawn.server.ApplicationStartService;
@@ -42,7 +43,7 @@ public class TestPush2Clinet extends IoHandlerAdapter {
 
 		SocketSessionConfig config = (SocketSessionConfig) accept
 				.getSessionConfig();
-		config.setReadBufferSize(1024);
+		config.setReadBufferSize(MsgWrapper.MAX_BUFFER_MSG + 16);
 		config.setReuseAddress(true);
 		config.setUseReadOperation(true);
 		InetSocketAddress address = new InetSocketAddress(

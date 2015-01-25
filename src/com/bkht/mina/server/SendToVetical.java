@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 
 import com.bkht.mina.msg.BodyPros;
 import com.bkht.mina.msg.MsgWrapper;
+import com.bkht.mina.trade.M0x8108;
 import com.bkht.mina.trade.M0x9521;
 import com.bkht.mina.trade.M0x9561;
 import com.bkht.mina.trade.TradeOut;
@@ -67,7 +68,15 @@ public class SendToVetical {
 					null, null);
 		} else if (msg.equals("0x8108")) {
 			// 下发终端升级包
-
+			M0x8108 mx = new M0x8108();
+			mx.setManuId("1234567890");
+			byte[] bytes = new byte[50];
+			mx.setPackageBody(bytes);
+			mx.setType(1);
+			mx.setVersion("version1.1.1");
+			wrapper = new MsgWrapper("8108",
+					new BodyPros("0", "000", (short) 0), carId, (short) 1,
+					null, null);
 		} else {
 			throw new Exception("交易码错误，请重试:" + msg);
 		}

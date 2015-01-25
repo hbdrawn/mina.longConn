@@ -13,6 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.bkht.mina.comm.MyCodecFactory;
+import com.bkht.mina.msg.MsgWrapper;
 import com.bkht.mina.server.VehicleSocketHandler;
 import com.hbdrawn.push.server.TestPush2Clinet;
 
@@ -37,7 +38,7 @@ public class MinaServiceStart {
 
 		SocketSessionConfig config = (SocketSessionConfig) accept
 				.getSessionConfig();
-		config.setReadBufferSize(1024);
+		config.setReadBufferSize(MsgWrapper.MAX_BUFFER_MSG + 16);
 		config.setReuseAddress(true);
 		config.setUseReadOperation(true);
 		InetSocketAddress address = new InetSocketAddress(

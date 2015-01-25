@@ -19,7 +19,10 @@ public class MsgWrapper {
 
 	private byte[] msgBody; // 消息体
 
-	public static final int MAX_BUFFER = 1021;
+	public static final int MAX_BUFFER = 1023; //最大消息体长度
+
+	public static final int MAX_BUFFER_MSG = MAX_BUFFER + 14 + 1 + 2; //最大消息体长度
+	
 	// public static final String HEX_PREFIX = "0x";
 	public static final short sign = (short) 61568; // F0 80
 
