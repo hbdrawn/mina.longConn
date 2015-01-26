@@ -2,6 +2,7 @@ package com.bkht.mina.msg;
 
 import com.bkht.mina.comm.SocketMessage;
 import com.bkht.mina.utils.ByteTools;
+import com.bkht.mina.utils.StringTools;
 
 // 消息包封装项 4字节
 public class MsgPackage {
@@ -32,5 +33,9 @@ public class MsgPackage {
 		return "{sum:" + sum + ",serial:" + serial + "}";
 	}
 
+	public static void main(String[] args) {
+		MsgPackage m = new MsgPackage((short) 101, (short) 1);
+		System.out.println(StringTools.toHexTable(m.getBytes()));
+	}
 
 }

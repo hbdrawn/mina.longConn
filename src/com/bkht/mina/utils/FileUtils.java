@@ -96,9 +96,13 @@ public class FileUtils {
 		return (short) Math.ceil(len / (double) M0x8108.MAX_LEN_BODY);
 	}
 
-	// public static void main(String[] args) throws Exception {
-	// String path = "E:/git/mina.longConn/resources/tt.txt";
-	// byte[] file = getFile(2, path);
-	// System.out.println(StringTools.toHexTable(file));
-	// }
+	public static void main(String[] args) throws Exception {
+		String path = "E:/git/mina.longConn/resources/CBin_V9.02.C01";
+		M0x8108 mx = new M0x8108();
+		mx.setManuId("YDTT");
+		mx.setType(0);
+		mx.setVersion("V9.20");
+		// sendToVetical(mx, "131013240000", path);
+		System.out.println(getLenFromFile(path));
+	}
 }

@@ -15,77 +15,85 @@ public class M0x9529 implements MsgAbstract {
 	private Integer x002c = null; // 工作时距离汇报间隔，单位为米（m），>0
 	private Integer x002e = null; // 休眠时汇报距离间隔，单位为米（m），>0
 
-	public static final byte X0001 = 0x0001;
-	public static final byte X0013 = 0x0013;
-	public static final byte X0017 = 0x0017;
-	public static final byte X0018 = 0x0018;
-	public static final byte X0027 = 0x0027;
-	public static final byte X0029 = 0x0029;
-	public static final byte X002c = 0x002C;
-	public static final byte X002e = 0x002E;
+	public static final int X0001 = 0x0001;
+	public static final int X0013 = 0x0013;
+	public static final int X0017 = 0x0017;
+	public static final int X0018 = 0x0018;
+	public static final int X0027 = 0x0027;
+	public static final int X0029 = 0x0029;
+	public static final int X002c = 0x002C;
+	public static final int X002e = 0x002E;
 
 	@Override
 	public byte[] getBody() throws Exception {
 		int sum = 0;
 		int len = 1;
-		byte[] result = new byte[30];
+		byte[] result = new byte[60]; // 此报文最长60个字节
 		if (x0001 != null) {
 			sum++;
-			result[len] = X0001;
-			result[len + 1] = (byte) 4;
-			SocketMessage.setInt(result, len + 2, x0001);
-			len = len + 6;
+			SocketMessage.setInt(result, len, X0001);
+			// result[len] = X0001;
+			result[len + 4] = (byte) 4;
+			SocketMessage.setInt(result, len + 5, x0001);
+			len = len + 9;
 		}
 		if (x0013 != null) {
 			sum++;
-			result[len] = X0013;
+			SocketMessage.setInt(result, len, X0013);
+			// result[len] = X0013;
 			byte[] by = x0013.getBytes();
-			result[len + 1] = (byte) by.length;
-			System.arraycopy(by, 0, result, len + 2, by.length);
-			len = len + by.length + 2;
+			result[len + 4] = (byte) by.length;
+			System.arraycopy(by, 0, result, len + 5, by.length);
+			len = len + by.length + 5;
 		}
 		if (x0017 != null) {
 			sum++;
-			result[len] = X0017;
+			SocketMessage.setInt(result, len, X0017);
+			// result[len] = X0017;
 			byte[] by = x0017.getBytes();
-			result[len + 1] = (byte) by.length;
-			System.arraycopy(by, 0, result, len + 2, by.length);
-			len = len + by.length + 2;
+			result[len + 4] = (byte) by.length;
+			System.arraycopy(by, 0, result, len + 5, by.length);
+			len = len + by.length + 5;
 		}
 		if (x0018 != null) {
 			sum++;
-			result[len] = X0018;
-			result[len + 1] = (byte) 4;
-			SocketMessage.setInt(result, len + 2, x0018);
-			len = len + 6;
+			// result[len] = X0018;
+			SocketMessage.setInt(result, len, X0018);
+			result[len + 4] = (byte) 4;
+			SocketMessage.setInt(result, len + 5, x0018);
+			len = len + 9;
 		}
 		if (x0027 != null) {
 			sum++;
-			result[len] = X0027;
-			result[len + 1] = (byte) 4;
-			SocketMessage.setInt(result, len + 2, x0027);
-			len = len + 6;
+			// result[len] = X0027;
+			SocketMessage.setInt(result, len, X0027);
+			result[len + 4] = (byte) 4;
+			SocketMessage.setInt(result, len + 5, x0027);
+			len = len + 9;
 		}
 		if (x0029 != null) {
 			sum++;
-			result[len] = X0029;
-			result[len + 1] = (byte) 4;
-			SocketMessage.setInt(result, len + 2, x0029);
-			len = len + 6;
+			// result[len] = X0029;
+			SocketMessage.setInt(result, len, X0029);
+			result[len + 4] = (byte) 4;
+			SocketMessage.setInt(result, len + 5, x0029);
+			len = len + 9;
 		}
 		if (x002c != null) {
 			sum++;
-			result[len] = X002c;
-			result[len + 1] = (byte) 4;
-			SocketMessage.setInt(result, len + 2, x002c);
-			len = len + 6;
+			// result[len] = X002c;
+			SocketMessage.setInt(result, len, X002c);
+			result[len + 4] = (byte) 4;
+			SocketMessage.setInt(result, len + 5, x002c);
+			len = len + 9;
 		}
 		if (x002e != null) {
 			sum++;
-			result[len] = X002e;
-			result[len + 1] = (byte) 4;
-			SocketMessage.setInt(result, len + 2, x002e);
-			len = len + 6;
+			// result[len] = X002e;
+			SocketMessage.setInt(result, len, X002e);
+			result[len + 4] = (byte) 4;
+			SocketMessage.setInt(result, len + 5, x002e);
+			len = len + 9;
 		}
 
 		if (sum == 0) {

@@ -91,7 +91,7 @@ public class MsgWrapper {
 		System.arraycopy(carIdBytes, 0, msg, 4, 6);
 		System.arraycopy(msgSerialBytes, 0, msg, 10, 2);
 		if (msgPackageBytes != null) {
-			System.arraycopy(msgPackageBytes, 0, msg, 12, 2);
+			System.arraycopy(msgPackageBytes, 0, msg, 12, 4);
 			if (msgBodyLen != 0) {
 				System.arraycopy(msgBody, 0, msg, 16, msgBody.length);
 			}

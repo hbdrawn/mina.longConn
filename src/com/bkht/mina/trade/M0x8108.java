@@ -1,5 +1,7 @@
 package com.bkht.mina.trade;
 
+import com.bkht.mina.comm.SocketMessage;
+
 public class M0x8108 implements MsgAbstract {
 
 	public static final int MAX_LEN = 1022;
@@ -14,7 +16,7 @@ public class M0x8108 implements MsgAbstract {
 	private byte[] packageBody; // 升级的数据包
 
 	public byte[] getBody() throws Exception {
-		int len = 7 + version.getBytes().length + 1 + packageBody.length;
+		int len = 7 + version.getBytes().length + 4 + packageBody.length;
 		if (len > MAX_LEN) {
 			throw new Exception("数据包长度不合法(>1022):" + len);
 		}
@@ -34,8 +36,9 @@ public class M0x8108 implements MsgAbstract {
 		byte[] versionBytes = version.getBytes();
 		buff[6] = (byte) versionBytes.length;
 		System.arraycopy(versionBytes, 0, buff, 7, versionBytes.length);
-		buff[7 + versionBytes.length] = (byte) packageBody.length;
-		System.arraycopy(packageBody, 0, buff, 7 + versionBytes.length + 1,
+		int bodyLen = packageBody.length;
+		SocketMessage.setInt(buff, 7 + versionBytes.length, bodyLen);
+		System.arraycopy(packageBody, 0, buff, 11 + versionBytes.length,
 				packageBody.length);
 		return buff;
 	}

@@ -64,8 +64,8 @@ public class SendToVetical {
 		} else if (msg.equals("0x9529")) {
 			// 设置终端参数
 			M0x9529 m0x9529 = new M0x9529();
-			m0x9529.setX0001(30);
-			m0x9529.setX0013("115.28.145.58");
+			m0x9529.setX0001(10);
+//			m0x9529.setX0013("115.28.145.58");
 			byte[] re = m0x9529.getBody();
 			wrapper = new MsgWrapper("9529", new BodyPros("0", "000",
 					(short) re.length), carId, (short) 1, null, re);
