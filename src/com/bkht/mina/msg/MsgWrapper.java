@@ -19,10 +19,10 @@ public class MsgWrapper {
 
 	private byte[] msgBody; // 消息体
 
-	public static final int MAX_BUFFER = 1023; //最大消息体长度
+	public static final int MAX_BUFFER = 1023; // 最大消息体长度
 
-	public static final int MAX_BUFFER_MSG = MAX_BUFFER + 14 + 1 + 2; //最大消息体长度
-	
+	public static final int MAX_BUFFER_MSG = MAX_BUFFER + 14 + 1 + 2; // 最大消息体长度
+
 	// public static final String HEX_PREFIX = "0x";
 	public static final short sign = (short) 61568; // F0 80
 
@@ -64,7 +64,7 @@ public class MsgWrapper {
 	}
 
 	public byte[] getBytes() throws Exception {
-		if (msgBody == null || bodyPros == null || carId == null) {
+		if (bodyPros == null || carId == null) {
 			throw new Exception("参数不合法");
 		}
 		byte[] msgIdBytes = setMsgId(msgId);
@@ -76,12 +76,14 @@ public class MsgWrapper {
 		byte[] msgSerialBytes = ByteTools.getShort(msgSerial);
 		byte[] msgPackageBytes = null;
 
+		// 处理body为空的情况
+		int msgBodyLen = msgBody == null ? 0 : msgBody.length;
 		int len = 0;
 		if (msgPackage != null) {
-			len = 16 + msgBody.length;
+			len = 16 + msgBodyLen;
 			msgPackageBytes = msgPackage.getBytes();
 		} else {
-			len = 12 + msgBody.length;
+			len = 12 + msgBodyLen;
 		}
 		byte[] msg = new byte[len];
 		System.arraycopy(msgIdBytes, 0, msg, 0, 2);
@@ -90,9 +92,13 @@ public class MsgWrapper {
 		System.arraycopy(msgSerialBytes, 0, msg, 10, 2);
 		if (msgPackageBytes != null) {
 			System.arraycopy(msgPackageBytes, 0, msg, 12, 2);
-			System.arraycopy(msgBody, 0, msg, 16, msgBody.length);
+			if (msgBodyLen != 0) {
+				System.arraycopy(msgBody, 0, msg, 16, msgBody.length);
+			}
 		} else {
-			System.arraycopy(msgBody, 0, msg, 12, msgBody.length);
+			if (msgBodyLen != 0) {
+				System.arraycopy(msgBody, 0, msg, 12, msgBody.length);
+			}
 		}
 
 		return msg;

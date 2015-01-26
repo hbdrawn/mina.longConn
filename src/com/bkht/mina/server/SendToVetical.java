@@ -9,8 +9,11 @@ import com.bkht.mina.msg.BodyPros;
 import com.bkht.mina.msg.MsgWrapper;
 import com.bkht.mina.trade.M0x8108;
 import com.bkht.mina.trade.M0x9521;
+import com.bkht.mina.trade.M0x9529;
 import com.bkht.mina.trade.M0x9561;
 import com.bkht.mina.trade.TradeOut;
+import com.bkht.mina.utils.FileUtils;
+import com.bkht.mina.utils.SysConstant;
 
 public class SendToVetical {
 
@@ -29,7 +32,7 @@ public class SendToVetical {
 			t0x9521.setStime(calendar.getTime());
 			calendar.add(Calendar.HOUR, 3);
 			t0x9521.setEtime(calendar.getTime());
-			t0x9521.setIdentify("19809878392098983A");
+			t0x9521.setIdentify("130925198206275635");
 			t0x9521.setTime((byte) 200);
 			wrapper = new MsgWrapper("9521", new BodyPros("0", "000",
 					(short) t0x9521.getBody().length), carId, (short) 1, null,
@@ -42,7 +45,7 @@ public class SendToVetical {
 		} else if (msg.equals("0x9561")) {
 			// 服务器删除终端订单
 			M0x9561 m0x9561 = new M0x9561();
-			m0x9561.setIdentify("198098783920989834");
+			m0x9561.setIdentify("130925198206275635");
 			wrapper = new MsgWrapper("9561", new BodyPros("0", "000",
 					(short) m0x9561.getBody().length), carId, (short) 1, null,
 					m0x9561.getBody());
@@ -60,7 +63,12 @@ public class SendToVetical {
 					(short) biaozhi.length), carId, (short) 1, null, biaozhi);
 		} else if (msg.equals("0x9529")) {
 			// 设置终端参数
-			// TODO
+			M0x9529 m0x9529 = new M0x9529();
+			m0x9529.setX0001(30);
+			m0x9529.setX0013("115.28.145.58");
+			byte[] re = m0x9529.getBody();
+			wrapper = new MsgWrapper("9529", new BodyPros("0", "000",
+					(short) re.length), carId, (short) 1, null, re);
 		} else if (msg.equals("0x8107")) {
 			// 查询终端参数,消息体为空
 			wrapper = new MsgWrapper("8107",
@@ -69,14 +77,11 @@ public class SendToVetical {
 		} else if (msg.equals("0x8108")) {
 			// 下发终端升级包
 			M0x8108 mx = new M0x8108();
-			mx.setManuId("1234567890");
-			byte[] bytes = new byte[50];
-			mx.setPackageBody(bytes);
-			mx.setType(1);
-			mx.setVersion("version1.1.1");
-			wrapper = new MsgWrapper("8108",
-					new BodyPros("0", "000", (short) 0), carId, (short) 1,
-					null, null);
+			mx.setManuId("YDTT");
+			mx.setType(0);
+			mx.setVersion("V9.02");
+			FileUtils.sendToVetical(mx, carId, SysConstant.package_path);
+			return;
 		} else {
 			throw new Exception("交易码错误，请重试:" + msg);
 		}
@@ -84,8 +89,6 @@ public class SendToVetical {
 		if (wrapper != null) {
 			TradeOut trade = new TradeOut(wrapper);
 			trade.doHandler(VehicleSessionHolder.getSession(carId));
-		} else {
-			logger.warn("====没有消息需要发送");
 		}
 	}
 

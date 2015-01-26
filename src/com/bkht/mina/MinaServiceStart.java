@@ -1,7 +1,9 @@
 package com.bkht.mina;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.InetSocketAddress;
+import java.util.Properties;
 
 import org.apache.mina.core.filterchain.DefaultIoFilterChainBuilder;
 import org.apache.mina.core.service.IoAcceptor;
@@ -15,13 +17,15 @@ import org.slf4j.LoggerFactory;
 import com.bkht.mina.comm.MyCodecFactory;
 import com.bkht.mina.msg.MsgWrapper;
 import com.bkht.mina.server.VehicleSocketHandler;
+import com.bkht.mina.utils.SysConstant;
 import com.hbdrawn.push.server.TestPush2Clinet;
 
 //import com.hbdrawn.server.ApplicationStartService;
 
 public class MinaServiceStart {
 
-	public Logger logger = LoggerFactory.getLogger(getClass());
+	public static Logger logger = LoggerFactory
+			.getLogger(MinaServiceStart.class);
 
 	public static IoAcceptor accept = null;
 
@@ -40,6 +44,7 @@ public class MinaServiceStart {
 				.getSessionConfig();
 		config.setReadBufferSize(MsgWrapper.MAX_BUFFER_MSG + 16);
 		config.setReuseAddress(true);
+
 		config.setUseReadOperation(true);
 		InetSocketAddress address = new InetSocketAddress(
 				Integer.parseInt("9999"));
@@ -49,6 +54,25 @@ public class MinaServiceStart {
 	}
 
 	public static void main(String[] args) throws IOException {
+		// 获取文件路径
+		String configFile = "config.properties";
+
+		if (args.length > 0 && args[0] != null) {
+			configFile = args[0];
+		}
+		Properties prop = new Properties();
+		try {
+			InputStream in = MinaServiceStart.class.getResourceAsStream("/"
+					+ configFile);
+			prop.load(in);
+		} catch (Exception e) {
+			logger.error("Cannot read config file : " + configFile, e);
+		}
+
+		logger.info("Initialize system constant ....");
+		// 加载系统属性
+		SysConstant.init(prop);
+
 		MinaServiceStart start = new MinaServiceStart();
 		start.start();
 

@@ -18,7 +18,7 @@ public class T0x0107 extends TradeInAbstract {
 		byte[] typeBytes = new byte[2];
 		System.arraycopy(buff, 0, typeBytes, 0, 2);
 		// TODO
-
+		String type = ByteTools.bytesToBit(typeBytes);
 		// 制造商ID
 		byte[] manufactureBytes = new byte[5];
 		System.arraycopy(buff, 2, manufactureBytes, 0, 5);
@@ -30,7 +30,8 @@ public class T0x0107 extends TradeInAbstract {
 		// 终端ID
 		byte[] terminalIdBytes = new byte[7];
 		System.arraycopy(buff, 27, terminalIdBytes, 0, 7);
-		String terminalId = StringTools.getString(terminalIdBytes);
+		String terminalId = StringTools.getString(ByteTools.bcd2Asc(
+				terminalIdBytes, false));
 		// 终端SIM 卡CCID
 		byte[] ccidBytes = new byte[10];
 		System.arraycopy(buff, 34, ccidBytes, 0, 10);
@@ -64,7 +65,7 @@ public class T0x0107 extends TradeInAbstract {
 
 		logger.info(
 				"终端类型:{}, 制造商ID:{}, 终端型号:{}, 终端ID:{}, ICCID:{}, 终端硬件版本号长度:{}, 终端硬件版本号:{}, 终端固件版本号长度:{}, 终端硬件版本号:{}, GNSS:{}, 通信属性:{}",
-				null, manufacture, manuType, terminalId, ccid, versionLen,
+				type, manufacture, manuType, terminalId, ccid, versionLen,
 				version, gujianLen, gujian, gnss, commpros);
 	}
 }

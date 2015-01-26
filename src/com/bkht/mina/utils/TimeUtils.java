@@ -6,9 +6,11 @@ import java.util.Date;
 
 public class TimeUtils {
 
+	public static final String TIMEFORMAT = "yy-MM-DD-HH-mm-ss";
+
 	public static byte[] getTime(Date time) throws Exception {
 		String str = null;
-		SimpleDateFormat sf = new SimpleDateFormat("yy-MM-DD-hh-mm-ss");
+		SimpleDateFormat sf = new SimpleDateFormat(TIMEFORMAT);
 		if (time == null) {
 			Calendar calendar = Calendar.getInstance();
 			time = calendar.getTime();
@@ -55,7 +57,7 @@ public class TimeUtils {
 				sb.append("-");
 			}
 		}
-		SimpleDateFormat sf = new SimpleDateFormat("yy-MM-DD-hh-mm-ss");
+		SimpleDateFormat sf = new SimpleDateFormat(TIMEFORMAT);
 		return sf.parse(sb.toString());
 	}
 	// public static void main(String[] args) throws Exception {

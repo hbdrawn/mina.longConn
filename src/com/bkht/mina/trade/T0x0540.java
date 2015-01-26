@@ -3,7 +3,12 @@ package com.bkht.mina.trade;
 import org.apache.mina.core.session.IoSession;
 
 import com.bkht.mina.comm.SocketMessage;
+import com.bkht.mina.msg.BodyPros;
+import com.bkht.mina.msg.MsgPackage;
+import com.bkht.mina.msg.MsgWrapper;
+import com.bkht.mina.utils.FileUtils;
 import com.bkht.mina.utils.StringTools;
+import com.bkht.mina.utils.SysConstant;
 
 // 终端自动要包
 public class T0x0540 extends TradeInAbstract {
@@ -43,14 +48,20 @@ public class T0x0540 extends TradeInAbstract {
 
 	@Override
 	public void response(IoSession session) throws Exception {
-		// TODO
-		logger.warn("<<< for test");
 		M0x8108 mx8108 = new M0x8108();
 		mx8108.setManuId(manuId);
 		mx8108.setType(type);
 		mx8108.setVersion(version);
-		byte[] packageBytes = new byte[100];
+		byte[] packageBytes = FileUtils.getFile(num, SysConstant.package_path);
 		mx8108.setPackageBody(packageBytes);
-		session.write(mx8108.getBody());
+		byte[] msgBody = mx8108.getBody();
+		short lenFromFile = FileUtils.getLenFromFile(SysConstant.package_path);
+		BodyPros bodyPros = new BodyPros("1", "000", (short) msgBody.length);
+		MsgWrapper resWrapper = new MsgWrapper("8108", bodyPros,
+				wrapper.getCarId(), wrapper.getMsgSerial(), new MsgPackage(
+						lenFromFile, num), msgBody);
+		byte[] abuffer = resWrapper.getBytes();
+		SocketMessage sm = new SocketMessage(abuffer.length, abuffer);
+		session.write(sm);
 	}
 }
